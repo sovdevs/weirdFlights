@@ -81,17 +81,28 @@ def merge_flights(scoot_file: str = None, norse_file: str = None) -> list:
     return all_flights
 
 
-def save_merged_flights(flights: list, output_file: str = "flights.json") -> bool:
-    """Save merged flights to JSON file"""
-    try:
-        with open(output_file, 'w') as f:
-            json.dump(flights, f, indent=2)
-        file_size = Path(output_file).stat().st_size / (1024 * 1024)  # Size in MB
-        print(f"\n✅ Saved {len(flights)} flights to {output_file} ({file_size:.1f} MB)")
-        return True
-    except Exception as e:
-        print(f"\n❌ Error saving to {output_file}: {e}")
-        return False
+def save_merged_flights(flights: list, output_files: list = None) -> bool:
+    """Save merged flights to JSON files
+
+    Args:
+        flights: List of flight dictionaries to save
+        output_files: List of file paths to save to (default: root + flynorse)
+    """
+    if output_files is None:
+        output_files = ["flights.json", "flynorse/flights.json"]
+
+    all_success = True
+    for output_file in output_files:
+        try:
+            with open(output_file, 'w') as f:
+                json.dump(flights, f, indent=2)
+            file_size = Path(output_file).stat().st_size / (1024 * 1024)
+            print(f"✅ Saved {len(flights)} flights to {output_file} ({file_size:.1f} MB)")
+        except Exception as e:
+            print(f"❌ Error saving to {output_file}: {e}")
+            all_success = False
+
+    return all_success
 
 
 def main():

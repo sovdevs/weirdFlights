@@ -69,6 +69,12 @@ class ScootScraper:
         ("SYD", "SIN"), ("SIN", "SYD"),
         ("PER", "SIN"), ("SIN", "PER"),
         ("ADL", "SIN"), ("SIN", "ADL"),
+        # Philippines <-> Singapore
+        ("MNL", "SIN"), ("SIN", "MNL"),
+        ("CEB", "SIN"), ("SIN", "CEB"),
+        ("CRK", "SIN"), ("SIN", "CRK"),
+        ("DVO", "SIN"), ("SIN", "DVO"),
+        ("ILO", "SIN"), ("SIN", "ILO"),
     ]
 
     def __init__(self):

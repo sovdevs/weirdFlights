@@ -1,0 +1,50 @@
+name: Daily Flight Scraper
+
+on:
+  schedule:
+    # Run every day at 2 AM UTC (adjust timezone as needed)
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Scoot scraper
+        run: python flyscoot/scoot_scraper.py
+
+      - name: Run Norse scraper
+        run: python flynorse/norse_scraper.py
+
+      - name: Merge flight data
+        run: python merge_flights.py
+
+      - name: Commit and push updated flights
+        run: |
+          git config user.name "Scraper Bot"
+          git config user.email "action@github.com"
+
+          # Add the updated files
+          git add flights.json flynorse/flights.json scoot_flights_*.json norse_flights_*.json
+
+          # Only commit if there are changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Daily flight data update $(date +%Y-%m-%d)"
+            git push
+          fi

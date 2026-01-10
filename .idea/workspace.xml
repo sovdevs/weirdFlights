@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f33d73ba-242e-4b6d-bf50-7d9811eca070" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/commitMsg.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flyscoot/scoot_flights.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLAUDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/CLAUDE.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USAGE.md" beforeDir="false" afterPath="$PROJECT_DIR$/USAGE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airlines.md" beforeDir="false" afterPath="$PROJECT_DIR$/airlines.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flynorse/.github/workflows/daily-scrape.yml" beforeDir="false" afterPath="$PROJECT_DIR$/flynorse/.github/workflows/daily-scrape.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flynorse/DEPLOY.md" beforeDir="false" afterPath="$PROJECT_DIR$/flynorse/DEPLOY.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flynorse/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/flynorse/TODO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flynorse/flights.json" beforeDir="false" afterPath="$PROJECT_DIR$/flynorse/flights.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flynorse/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flynorse/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flynorse/norse_flights_2026-01-09.json" beforeDir="false" afterPath="$PROJECT_DIR$/flynorse/norse_flights_2026-01-09.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flyscoot/curls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flyscoot/curls.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flyscoot/destinations.json" beforeDir="false" afterPath="$PROJECT_DIR$/flyscoot/destinations.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flyscoot/dummyresponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/flyscoot/dummyresponse.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flyscoot/lowfare.json" beforeDir="false" afterPath="$PROJECT_DIR$/flyscoot/lowfare.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flyscoot/sinvie.json" beforeDir="false" afterPath="$PROJECT_DIR$/flyscoot/sinvie.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flynorse/norse_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/flynorse/norse_scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoot_flights_2026-01-10.json" beforeDir="false" afterPath="$PROJECT_DIR$/scoot_flights_2026-01-10.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="37z3vAtsCovFurfiBZKjK5yp5da" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,23 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHELLCHECK.PATH": "I do mind",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "com.google.cloudcode.ide_session_index": "20260108_0001",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/vmac/PycharmProjects/wierdFlights",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;I do mind&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20260108_0001&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vmac/PycharmProjects/wierdFlights&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />

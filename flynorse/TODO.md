@@ -1,3 +1,18 @@
+menu single 
+
+check return faires 2 x one way?
+grab BKK - MAN OSLO etc
+
+1 menu
+Europe > South East Asia
+SE Asia > Europe
+N America > Europe
+Europe > N America
+
+Davao 
+
+
+
 flyscoot!!
 
 curl 'https://booking.flyscoot.com/api/flights/availability' \
@@ -36,3 +51,6 @@ curl 'https://booking.flyscoot.com/api/flights/lowfare' \
 -H 'Priority: u=3, i' \
 --data-raw '{"currencyCode":"EUR","promoCode":"","daysForward":7,"daysBackward":7,"flightFare":{"fareType":[],"productClass":[]},"flightCriteria":[{"origin":"VIE","destination":"SIN","departureDate":"2026-01-13"}],"passengerCriteria":{"adult":1,"child":0,"infant":0}}'
 
+1 fix error when scraping
+/Users/vmac/PycharmProjects/wierdFlights/flyscoot/scoot_scraper.py:147: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  scraped_at = datetime.utcnow().isoformat() + "Z"

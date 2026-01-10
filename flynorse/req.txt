@@ -1,0 +1,21 @@
+curl 'https://services.flynorse.com/api/v1/availability/lowfare?includePremium=false' \
+-X 'POST' \
+-H 'Content-Type: application/json' \
+-H 'Accept: application/json, text/plain, */*' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJVbmtub3duIiwianRpIjoiODJkNDRlYjYtZWZkNy05ZjUxLTQ1MGItNjljZTI3MjdmYzg5IiwiaXNzIjoiZG90UkVaIEFQSSJ9.Tbs7dDYe1Iv7FY0ajYLpRXKKNCaRIWB29n8ce6Wv7Ck' \
+-H 'Sec-Fetch-Dest: empty' \
+-H 'Sec-Fetch-Site: same-site' \
+-H 'Accept-Language: en-GB,en;q=0.9' \
+-H 'Accept-Encoding: gzip, deflate, br' \
+-H 'Sec-Fetch-Mode: cors' \
+-H 'Origin: https://flynorse.com' \
+-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15' \
+-H 'Content-Length: 315' \
+-H 'Cookie: ARRAffinity=d9c7ece1f6d11b65aac2c931da15efd87646413c2ae18a5444b7096667801b4a; ARRAffinitySameSite=d9c7ece1f6d11b65aac2c931da15efd87646413c2ae18a5444b7096667801b4a; __cf_bm=5Ye72f2IncKZ9xBjrtRT0a9rF6e_8zCZ8HBbAhYaJrw-1767892577.8391383-1.0.1.1-s.Nmz37kbUGVaFv9brNGZVfUMKs6UkJfM5ZdItYspmNxkp6Nl3C85cAz_Jn1NaSwIoMiwxTPxmfNHq8h94iOxDCt_w1rT3SlrdUty3vIwmHeTkcTKRqvN9QOic6pmd_r; ARRAffinity=d9c7ece1f6d11b65aac2c931da15efd87646413c2ae18a5444b7096667801b4a; ARRAffinitySameSite=d9c7ece1f6d11b65aac2c931da15efd87646413c2ae18a5444b7096667801b4a; _cfuvid=YrSuefE2ThpW3Hc0a2lRjX_vhZxcMavnXKGtBpxf5do-1767892483.0443623-1.0.1.1-ficdFtw94BUolCamF_WEsrfIQ_TKf12qGxqMqA.b0.c; X-Access-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJVbmtub3duIiwianRpIjoiODJkNDRlYjYtZWZkNy05ZjUxLTQ1MGItNjljZTI3MjdmYzg5IiwiaXNzIjoiZG90UkVaIEFQSSJ9.Tbs7dDYe1Iv7FY0ajYLpRXKKNCaRIWB29n8ce6Wv7Ck' \
+-H 'traceparent: 00-3a32a18c82f54bc1b9a921d3fb4b01e8-9fe4fb4046424d44-01' \
+-H 'X-Anonymous-Id: bd58d7c8-5690-4cec-ad8d-0af223eb7e68' \
+-H 'Priority: u=3, i' \
+-H 'Request-Context: appId=cid-v1:6d63efc5-8b71-4a6f-a2f4-44bdfe2175e3' \
+-H 'X-GB-Blob: H4sIAAAAAAAAA0XMQQoCMQxG4bt07Q+1Oox4m6TNlKBNpNRxMXh3RRjcv+9tYREaiPGYUgQxWXGTgkx9hGugcNiDNF8msPtNrSK7LdobDXXDqgTusvoX8B+czvOE1hgmLzwftVMR3L1q/o3fH19QS7B7AAAA' \
+-H 'Request-Id: |3a32a18c82f54bc1b9a921d3fb4b01e8.9fe4fb4046424d44' \
+--data-raw '{"criteria":[{"origin":"LGW","destination":"BKK","beginDate":"2026-01-01","endDate":"2026-01-31"},{"origin":"BKK","destination":"LGW","beginDate":"2026-01-01","endDate":"2026-01-31"}],"passengers":[{"type":"ADT","count":1}],"currencyCode":"GBP","promotionCode":"","clearBooking":true,"childDobs":[],"infantDobs":[]}'

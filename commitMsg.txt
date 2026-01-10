@@ -1,0 +1,7 @@
+Add Scoot scraper and multi-currency frontend
+  - Scoot Airways scraper with 2,376 flights
+  - Multi-currency support (GBP/USD/EUR/SGD)
+  - Currency selector dropdown with real-time conversion
+  - 5 new European airports added
+  - Updated route filtering menu
+  - Total: 2,929 flights across 40 routes

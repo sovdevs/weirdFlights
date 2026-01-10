@@ -1,0 +1,143 @@
+{
+    "currencyCode": "EUR",
+    "lowFareSearchMarkets": [
+        {
+            "origin": "VIE",
+            "destination": "SIN",
+            "lowFares": [
+                {
+                    "fareAmount": null,
+                    "farePointAmount": null,
+                    "taxesAndFeesAmount": null,
+                    "totalAmount": null,
+                    "departureDate": "2026-01-09T00:00:00",
+                    "milesFare": null,
+                    "noFlights": true,
+                    "soldOut": false,
+                    "available": 0
+                },
+                {
+                    "fareAmount": 473,
+                    "farePointAmount": 0,
+                    "taxesAndFeesAmount": 44.97,
+                    "totalAmount": 517.97,
+                    "departureDate": "2026-01-10T00:00:00",
+                    "milesFare": null,
+                    "noFlights": false,
+                    "soldOut": false,
+                    "available": 4
+                },
+                {
+                    "fareAmount": null,
+                    "farePointAmount": null,
+                    "taxesAndFeesAmount": null,
+                    "totalAmount": null,
+                    "departureDate": "2026-01-11T00:00:00",
+                    "milesFare": null,
+                    "noFlights": true,
+                    "soldOut": false,
+                    "available": 0
+                },
+                {
+                    "fareAmount": null,
+                    "farePointAmount": null,
+                    "taxesAndFeesAmount": null,
+                    "totalAmount": null,
+                    "departureDate": "2026-01-12T00:00:00",
+                    "milesFare": null,
+                    "noFlights": true,
+                    "soldOut": false,
+                    "available": 0
+                },
+                {
+                    "fareAmount": 412,
+                    "farePointAmount": 0,
+                    "taxesAndFeesAmount": 44.97,
+                    "totalAmount": 456.97,
+                    "departureDate": "2026-01-13T00:00:00",
+                    "milesFare": null,
+                    "noFlights": false,
+                    "soldOut": false,
+                    "available": 2
+                },
+                {
+                    "fareAmount": null,
+                    "farePointAmount": null,
+                    "taxesAndFeesAmount": null,
+                    "totalAmount": null,
+                    "departureDate": "2026-01-14T00:00:00",
+                    "milesFare": null,
+                    "noFlights": true,
+                    "soldOut": false,
+                    "available": 0
+                },
+                {
+                    "fareAmount": 412,
+                    "farePointAmount": 0,
+                    "taxesAndFeesAmount": 44.97,
+                    "totalAmount": 456.97,
+                    "departureDate": "2026-01-15T00:00:00",
+                    "milesFare": null,
+                    "noFlights": false,
+                    "soldOut": false,
+                    "available": 8
+                },
+                {
+                    "fareAmount": null,
+                    "farePointAmount": null,
+                    "taxesAndFeesAmount": null,
+                    "totalAmount": null,
+                    "departureDate": "2026-01-16T00:00:00",
+                    "milesFare": null,
+                    "noFlights": true,
+                    "soldOut": false,
+                    "available": 0
+                },
+                {
+                    "fareAmount": 412,
+                    "farePointAmount": 0,
+                    "taxesAndFeesAmount": 44.97,
+                    "totalAmount": 456.97,
+                    "departureDate": "2026-01-17T00:00:00",
+                    "milesFare": null,
+                    "noFlights": false,
+                    "soldOut": false,
+                    "available": 13
+                },
+                {
+                    "fareAmount": null,
+                    "farePointAmount": null,
+                    "taxesAndFeesAmount": null,
+                    "totalAmount": null,
+                    "departureDate": "2026-01-18T00:00:00",
+                    "milesFare": null,
+                    "noFlights": true,
+                    "soldOut": false,
+                    "available": 0
+                },
+                {
+                    "fareAmount": null,
+                    "farePointAmount": null,
+                    "taxesAndFeesAmount": null,
+                    "totalAmount": null,
+                    "departureDate": "2026-01-19T00:00:00",
+                    "milesFare": null,
+                    "noFlights": true,
+                    "soldOut": false,
+                    "available": 0
+                },
+                {
+                    "fareAmount": 412,
+                    "farePointAmount": 0,
+                    "taxesAndFeesAmount": 44.97,
+                    "totalAmount": 456.97,
+                    "departureDate": "2026-01-20T00:00:00",
+                    "milesFare": null,
+                    "noFlights": false,
+                    "soldOut": false,
+                    "available": 9
+                }
+            ]
+        }
+    ]
+}

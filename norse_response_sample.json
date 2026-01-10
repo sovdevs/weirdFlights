@@ -1,0 +1,330 @@
+{
+  "errors": null,
+  "data": [
+    {
+      "cityPair": {
+        "origin": "LGW",
+        "destination": "BKK"
+      },
+      "cabins": [
+        {
+          "cabinName": "Economy",
+          "cabinClass": "Y",
+          "lowFareAmounts": [
+            {
+              "departureDate": "2026-01-01T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-02T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-03T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-04T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-05T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-06T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-07T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-08T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-09T00:00:00",
+              "fareAmount": 378.1,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 493.57,
+              "roundedFareTotal": 494,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-10T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-11T00:00:00",
+              "fareAmount": 333.62,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 449.09,
+              "roundedFareTotal": 450,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-12T00:00:00",
+              "fareAmount": 355.86,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 471.33,
+              "roundedFareTotal": 472,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-13T00:00:00",
+              "fareAmount": 333.62,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 449.09,
+              "roundedFareTotal": 450,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-14T00:00:00",
+              "fareAmount": 292.84,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 408.31,
+              "roundedFareTotal": 409,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-15T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-16T00:00:00",
+              "fareAmount": 292.84,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 408.31,
+              "roundedFareTotal": 409,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-17T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-18T00:00:00",
+              "fareAmount": 311.37,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 426.84,
+              "roundedFareTotal": 427,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-19T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-20T00:00:00",
+              "fareAmount": 273.56,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 389.03,
+              "roundedFareTotal": 390,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-21T00:00:00",
+              "fareAmount": 273.56,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 389.03,
+              "roundedFareTotal": 390,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-22T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-23T00:00:00",
+              "fareAmount": 255.77,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 371.24,
+              "roundedFareTotal": 372,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-24T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-25T00:00:00",
+              "fareAmount": 255.77,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 371.24,
+              "roundedFareTotal": 372,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-26T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-27T00:00:00",
+              "fareAmount": 273.56,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 389.03,
+              "roundedFareTotal": 390,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-28T00:00:00",
+              "fareAmount": 273.56,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 389.03,
+              "roundedFareTotal": 390,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-29T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            },
+            {
+              "departureDate": "2026-01-30T00:00:00",
+              "fareAmount": 333.62,
+              "farePointAmount": 0.0,
+              "taxesAndFeesAmount": 115.47,
+              "fareTotal": 449.09,
+              "roundedFareTotal": 450,
+              "isSaleFare": false,
+              "fareLevel": 2
+            },
+            {
+              "departureDate": "2026-01-31T00:00:00",
+              "fareAmount": null,
+              "farePointAmount": null,
+              "taxesAndFeesAmount": null,
+              "fareTotal": null,
+              "roundedFareTotal": null,
+              "isSaleFare": false,
+              "fareLevel": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": null
+}

@@ -1,102 +1,79 @@
 # Weird Flights ✈️
 
-Budget-first flight search for flexible travelers. Like Rome2Rio but for lesser-known airlines, sorted by price instead of date.
+Budget-first flight search for flexible travelers. Displays the cheapest routes across Europe → US/Asia on an interactive map, updated daily.
 
-## Concept
+## Features
 
-Someone has a rough idea of start and end point (e.g., "Europe → SE Asia") but a fixed budget and will fly to a nearby airport if needed. This tool shows the cheapest routes on a map.
+✨ **What it does:**
+- Interactive Leaflet map showing flight routes
+- Real-time filtering: region, price, price-per-km
+- Sale fare highlighting 🔥
+- Flexible passenger pricing (1 Adult, Adult+Child, 2 Adults, etc.)
+- Booking links direct to airlines
+- Automatic daily data updates
 
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                        FRONTEND                              │
-│  - Interactive Leaflet map                                  │
-│  - Route lines colored by price                             │
-│  - Region/budget filters                                    │
-└─────────────────────┬───────────────────────────────────────┘
-                      │ REST API
-┌─────────────────────▼───────────────────────────────────────┐
-│                   BACKEND (FastAPI)                          │
-│  - /api/routes - all routes with lowest prices              │
-│  - /api/flights - individual flights                        │
-│  - /api/airports - airport coordinates                      │
-└─────────────────────┬───────────────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────────────┐
-│                   SQLITE DATABASE                            │
-│  - flights: individual prices by date                       │
-│  - routes: aggregated lowest prices                         │
-└─────────────────────┬───────────────────────────────────────┘
-                      │ Populated by
-┌─────────────────────▼───────────────────────────────────────┐
-│                       SCRAPERS                               │
-│  - Norse Atlantic (POC)                                     │
-│  - More airlines to be added                                │
-└─────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────┐
+│         FRONTEND (Static - No Server)            │
+│  - Interactive Leaflet map                       │
+│  - Loads flight data from flights.json           │
+│  - Region/budget/price-per-km filters            │
+│  - Hosted on Netlify/Vercel/GitHub Pages        │
+└──────────────────────────────────────────────────┘
+                          ↑
+                    flights.json
+                          ↑
+┌──────────────────────────────────────────────────┐
+│     GITHUB ACTIONS (Daily Automation)            │
+│  - Runs norse_scraper.py daily at 2 AM UTC      │
+│  - Queries Norse Atlantic Airways API            │
+│  - Commits updated flights.json to repo          │
+│  - Hosting auto-redeploys with new data         │
+└──────────────────────────────────────────────────┘
 ```
 
-## Quick Start
+## 🚀 Deploy in 5 Minutes
 
-### 1. Install Dependencies
+See [DEPLOY.md](DEPLOY.md) for complete instructions.
+
+**Quick version:**
 
 ```bash
-pip install -r requirements.txt
+./deploy.sh
 ```
 
-### 2. Initialize Database & Run Scraper
+This script will:
+1. Initialize git repository
+2. Guide you through pushing to GitHub
+3. Provide one-click Netlify deployment link
+4. Enable daily automated scraping via GitHub Actions
 
-```bash
-cd scrapers
-python norse_scraper.py
-```
+Your site will be live at: `https://your-site.netlify.app`
 
-This will:
-- Test the Norse Atlantic API
-- Save a sample response to `norse_response_sample.json`
-- Show the response structure (needed to finalize parsing)
+## 🏃 Local Development
 
-### 3. Import Data to Database
+### Quick Start
 
-After scraping:
+1. **Install dependencies**
+   ```bash
+   pip install requests
+   ```
 
-```bash
-cd backend
-python database.py  # Initialize with test data
-```
+2. **Run the scraper**
+   ```bash
+   python norse_scraper.py
+   ```
+   This generates `flights.json` with data for all routes
 
-### 4. Start the API Server
+3. **Start local server**
+   ```bash
+   python -m http.server 3000
+   ```
 
-```bash
-cd backend
-python server.py
-# or: uvicorn server:app --reload --port 8000
-```
-
-API available at: http://localhost:8000
-
-### 5. Open the Frontend
-
-Open `frontend/index.html` in your browser, or serve it:
-
-```bash
-cd frontend
-python -m http.server 3000
-```
-
-Then visit: http://localhost:3000
-
-## API Endpoints
-
-| Endpoint | Description |
-|----------|-------------|
-| `GET /api/routes` | All routes with lowest prices |
-| `GET /api/routes?origin_region=europe&dest_region=se_asia` | Filter by region |
-| `GET /api/routes?max_price=500` | Filter by max price |
-| `GET /api/flights?origin=LGW&destination=BKK` | Specific route flights |
-| `GET /api/airports` | All airports with coordinates |
-| `GET /api/cheapest` | Top 20 cheapest routes |
-| `GET /api/stats` | Database statistics |
+4. **Open browser**
+   Visit: http://localhost:3000
 
 ## Norse Atlantic API
 

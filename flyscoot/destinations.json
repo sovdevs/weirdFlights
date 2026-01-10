@@ -1,0 +1,3281 @@
+[{
+    "code": "BDO",
+    "name": "Bandung",
+    "shortName": "Husein Sastranegara",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "065402S",
+    "longitude": "1073435E"
+}, {
+    "code": "BKK",
+    "name": "Bangkok (Suvarnabhumi)",
+    "shortName": "Suvarnabhumi Intl",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "134109N",
+    "longitude": "1004456E"
+}, {
+    "code": "BLR",
+    "name": "Bengaluru",
+    "shortName": "Bengaluru Intl",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "125644N",
+    "longitude": "0773948E"
+}, {
+    "code": "BPN",
+    "name": "Balikpapan",
+    "shortName": "Sepinggan Intl",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "011606S",
+    "longitude": "1165340E"
+}, {
+    "code": "BWN",
+    "name": "Bandar Seri Begawan",
+    "shortName": "Brunei Intl",
+    "countryCode": "BN",
+    "countryName": "Brunei Darussalam",
+    "currencyCode": "BND",
+    "macCode": null,
+    "latitude": "045639N",
+    "longitude": "1145542E"
+}, {
+    "code": "CAN",
+    "name": "Guangzhou",
+    "shortName": "Guangzhou Baiyun Intl",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "232333N",
+    "longitude": "1131756E"
+}, {
+    "code": "CEB",
+    "name": "Cebu",
+    "shortName": "Mactan Intl Airport",
+    "countryCode": "PH",
+    "countryName": "Philippines",
+    "currencyCode": "PHP",
+    "macCode": null,
+    "latitude": "101827N",
+    "longitude": "1235846E"
+}, {
+    "code": "CGK",
+    "name": "Jakarta",
+    "shortName": "Soekarno-Hatta Intl",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "060732S",
+    "longitude": "1063921E"
+}, {
+    "code": "CMB",
+    "name": "Colombo",
+    "shortName": "Bandaranaike Intl",
+    "countryCode": "LK",
+    "countryName": "Sri Lanka",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "071049N",
+    "longitude": "0795307E"
+}, {
+    "code": "COK",
+    "name": "Kochi",
+    "shortName": "Cochin Intl",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "100907N",
+    "longitude": "0762407E"
+}, {
+    "code": "DAC",
+    "name": "Dhaka",
+    "shortName": "Shahjalal Intl",
+    "countryCode": "BD",
+    "countryName": "Bangladesh",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "235036N",
+    "longitude": "0902352E"
+}, {
+    "code": "DPS",
+    "name": "Denpasar (Bali)",
+    "shortName": "Ngurah Rai Intl",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "084455S",
+    "longitude": "1150954E"
+}, {
+    "code": "HAK",
+    "name": "Haikou",
+    "shortName": "Haikou Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "195605N",
+    "longitude": "1102732E"
+}, {
+    "code": "HAN",
+    "name": "Hanoi",
+    "shortName": "Noi Bai Intl",
+    "countryCode": "VN",
+    "countryName": "Vietnam",
+    "currencyCode": "VND",
+    "macCode": null,
+    "latitude": "211316N",
+    "longitude": "1054826E"
+}, {
+    "code": "HDY",
+    "name": "Hat Yai",
+    "shortName": "Hat Yai Airport",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "065558N",
+    "longitude": "1002342E"
+}, {
+    "code": "HKG",
+    "name": "Hong Kong",
+    "shortName": "Hong Kong Intl",
+    "countryCode": "HK",
+    "countryName": "Hong Kong SAR, China",
+    "currencyCode": "HKD",
+    "macCode": null,
+    "latitude": "221900N",
+    "longitude": "1135500E"
+}, {
+    "code": "HKT",
+    "name": "Phuket",
+    "shortName": "Phuket Intl",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "080644N",
+    "longitude": "0981819E"
+}, {
+    "code": "HYD",
+    "name": "Hyderabad",
+    "shortName": "Rajiv Gandhi Intl",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "171352N",
+    "longitude": "0782553E"
+}, {
+    "code": "KBV",
+    "name": "Krabi",
+    "shortName": "Krabi Airport",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "080545N",
+    "longitude": "0985920E"
+}, {
+    "code": "KCH",
+    "name": "Kuching",
+    "shortName": "Kuching Intl",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "currencyCode": "MYR",
+    "macCode": null,
+    "latitude": "012903N",
+    "longitude": "1102038E"
+}, {
+    "code": "KUL",
+    "name": "Kuala Lumpur",
+    "shortName": "Kuala Lumpur Intl",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "currencyCode": "MYR",
+    "macCode": "KUL",
+    "latitude": "024444N",
+    "longitude": "1014253E"
+}, {
+    "code": "LGK",
+    "name": "Langkawi",
+    "shortName": "Langkawi Intl",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "currencyCode": "MYR",
+    "macCode": null,
+    "latitude": "062019N",
+    "longitude": "0994356E"
+}, {
+    "code": "LOP",
+    "name": "Lombok",
+    "shortName": "Lombok Intl",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "084526S",
+    "longitude": "1161636E"
+}, {
+    "code": "MAA",
+    "name": "Chennai",
+    "shortName": "Chennai Intl",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "125936N",
+    "longitude": "0801037E"
+}, {
+    "code": "MEL",
+    "name": "Melbourne",
+    "shortName": "Tullamarine Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "373942S",
+    "longitude": "1445000E"
+}, {
+    "code": "MFM",
+    "name": "Macau",
+    "shortName": "Macau Airport",
+    "countryCode": "MO",
+    "countryName": "Macau SAR, China",
+    "currencyCode": "HKD",
+    "macCode": null,
+    "latitude": "220858N",
+    "longitude": "1133530E"
+}, {
+    "code": "MNL",
+    "name": "Manila",
+    "shortName": "Ninoy Aquino Intl",
+    "countryCode": "PH",
+    "countryName": "Philippines",
+    "currencyCode": "PHP",
+    "macCode": null,
+    "latitude": "143036N",
+    "longitude": "1210106E"
+}, {
+    "code": "NRT",
+    "name": "Tokyo (Narita)",
+    "shortName": "Narita Intl",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "currencyCode": "JPY",
+    "macCode": "TYO",
+    "latitude": "354553N",
+    "longitude": "1402311E"
+}, {
+    "code": "OOL",
+    "name": "Gold Coast",
+    "shortName": "Gold Coast Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "281100S",
+    "longitude": "1532900E"
+}, {
+    "code": "PEN",
+    "name": "Penang",
+    "shortName": "Penang Intl",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "currencyCode": "MYR",
+    "macCode": null,
+    "latitude": "051750N",
+    "longitude": "1001636E"
+}, {
+    "code": "PER",
+    "name": "Perth",
+    "shortName": "Perth Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "315625S",
+    "longitude": "1155801E"
+}, {
+    "code": "PKU",
+    "name": "Pekanbaru",
+    "shortName": "Sultan Syarif Kasim",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "002739N",
+    "longitude": "1012640E"
+}, {
+    "code": "PLM",
+    "name": "Palembang",
+    "shortName": "Mahmud Badaruddin",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "025354S",
+    "longitude": "1044200E"
+}, {
+    "code": "PNH",
+    "name": "Phnom Penh",
+    "shortName": "Phnom Penh Intl",
+    "countryCode": "KH",
+    "countryName": "Cambodia",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "113248N",
+    "longitude": "1045039E"
+}, {
+    "code": "SGN",
+    "name": "Ho Chi Minh City",
+    "shortName": "Tan Son Nhat Intl",
+    "countryCode": "VN",
+    "countryName": "Vietnam",
+    "currencyCode": "VND",
+    "macCode": null,
+    "latitude": "104908N",
+    "longitude": "1063907E"
+}, {
+    "code": "SHE",
+    "name": "Shenyang",
+    "shortName": "Taoxian Intl Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "413825N",
+    "longitude": "1232946E"
+}, {
+    "code": "SIN",
+    "name": "Singapore",
+    "shortName": "Changi Airport",
+    "countryCode": "SG",
+    "countryName": "Singapore",
+    "currencyCode": "SGD",
+    "macCode": null,
+    "latitude": "012141N",
+    "longitude": "1035920E"
+}, {
+    "code": "SYD",
+    "name": "Sydney",
+    "shortName": "Kingsford Smith Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "335639S",
+    "longitude": "1511033E"
+}, {
+    "code": "SZX",
+    "name": "Shenzhen",
+    "shortName": "Shenzhen Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "223845N",
+    "longitude": "1134908E"
+}, {
+    "code": "TAO",
+    "name": "Qingdao",
+    "shortName": "Qingdao Intl Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "362144N",
+    "longitude": "1200515E"
+}, {
+    "code": "TPE",
+    "name": "Taipei",
+    "shortName": "Taoyuan Intl Airport",
+    "countryCode": "TW",
+    "countryName": "Taiwan, China",
+    "currencyCode": "TWD",
+    "macCode": null,
+    "latitude": "250440N",
+    "longitude": "1211358E"
+}, {
+    "code": "TRV",
+    "name": "Thiruvananthapuram",
+    "shortName": "Trivandrum",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "082856N",
+    "longitude": "0765512E"
+}, {
+    "code": "TRZ",
+    "name": "Tiruchirappalli (Trichy)",
+    "shortName": "Tiruchirapalli",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "104555N",
+    "longitude": "0784235E"
+}, {
+    "code": "TSN",
+    "name": "Tianjin",
+    "shortName": "Tianjin Binhai Intl Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "390728N",
+    "longitude": "1172046E"
+}, {
+    "code": "ICN",
+    "name": "Seoul",
+    "shortName": "Incheon Intl",
+    "countryCode": "KR",
+    "countryName": "South Korea",
+    "currencyCode": "KRW",
+    "macCode": "SEL",
+    "latitude": "372809N",
+    "longitude": "1262702E"
+}, {
+    "code": "PDG",
+    "name": "Padang",
+    "shortName": "Minangkabau Intl Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "005230S",
+    "longitude": "1002107E"
+}, {
+    "code": "SUB",
+    "name": "Surabaya",
+    "shortName": "Juanda Intl Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "071305S",
+    "longitude": "1124315E"
+}, {
+    "code": "NKG",
+    "name": "Nanjing",
+    "shortName": "Lukou Intl Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "314401N",
+    "longitude": "1185218E"
+}, {
+    "code": "JOG",
+    "name": "Yogyakarta",
+    "shortName": "Adisucipto Intl Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": "JOG",
+    "latitude": "074717S",
+    "longitude": "1102554E"
+}, {
+    "code": "KNO",
+    "name": "Medan",
+    "shortName": "Kuala Namu Intl",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "033816N",
+    "longitude": "0985219E"
+}, {
+    "code": "SRG",
+    "name": "Semarang",
+    "shortName": "Achmad Yani Intl Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "065817S",
+    "longitude": "1102227E"
+}, {
+    "code": "UPG",
+    "name": "Makassar",
+    "shortName": "Sultan Hasanuddin Intl Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "050400S",
+    "longitude": "1193300E"
+}, {
+    "code": "ADL",
+    "name": "Adelaide",
+    "shortName": "Adelaide Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "345642S",
+    "longitude": "1383150E"
+}, {
+    "code": "AYQ",
+    "name": "Ayers Rock / Uluru",
+    "shortName": "Connellan Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "251110S",
+    "longitude": "1305832E"
+}, {
+    "code": "BNE",
+    "name": "Brisbane",
+    "shortName": "Brisbane Intl Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "272303S",
+    "longitude": "1530703E"
+}, {
+    "code": "CBR",
+    "name": "Canberra",
+    "shortName": "Canberra Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "351825S",
+    "longitude": "1491142E"
+}, {
+    "code": "CEI",
+    "name": "Chiang Rai",
+    "shortName": "Chiang Rai Airport",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "195708N",
+    "longitude": "0995259E"
+}, {
+    "code": "CNS",
+    "name": "Cairns",
+    "shortName": "Cairns Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "165241S",
+    "longitude": "1454456E"
+}, {
+    "code": "CNX",
+    "name": "Chiang Mai",
+    "shortName": "Chiang Mai Airport",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "184617N",
+    "longitude": "0985746E"
+}, {
+    "code": "CRK",
+    "name": "Clark",
+    "shortName": "Clark Intl. Airport",
+    "countryCode": "PH",
+    "countryName": "Philippines",
+    "currencyCode": "PHP",
+    "macCode": null,
+    "latitude": "151110N",
+    "longitude": "1203337E"
+}, {
+    "code": "CTS",
+    "name": "Sapporo (Hokkaido)",
+    "shortName": "New Chitose Airport",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "currencyCode": "JPY",
+    "macCode": null,
+    "latitude": "424631N",
+    "longitude": "1414132E"
+}, {
+    "code": "DMK",
+    "name": "Bangkok (Don Mueang)",
+    "shortName": "Don Mueang Intl. Airpt.",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "135445N",
+    "longitude": "1003624E"
+}, {
+    "code": "HBA",
+    "name": "Hobart",
+    "shortName": "Hobart Intl Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "425010S",
+    "longitude": "1473037E"
+}, {
+    "code": "HHQ",
+    "name": "Hua Hin",
+    "shortName": "Hua Hin Airport",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "123749N",
+    "longitude": "0995712E"
+}, {
+    "code": "KHH",
+    "name": "Kaohsiung",
+    "shortName": "Kaohsiung Intl Airport",
+    "countryCode": "TW",
+    "countryName": "Taiwan, China",
+    "currencyCode": "TWD",
+    "macCode": null,
+    "latitude": "223421N",
+    "longitude": "1202043E"
+}, {
+    "code": "KIX",
+    "name": "Osaka",
+    "shortName": "Kansai Intl",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "currencyCode": "JPY",
+    "macCode": "OSA",
+    "latitude": "342538N",
+    "longitude": "1351439E"
+}, {
+    "code": "KLO",
+    "name": "Kalibo (Boracay)",
+    "shortName": "Kalibo Airport",
+    "countryCode": "PH",
+    "countryName": "Philippines",
+    "currencyCode": "PHP",
+    "macCode": null,
+    "latitude": "114104N",
+    "longitude": "1222252E"
+}, {
+    "code": "LJG",
+    "name": "Lijiang",
+    "shortName": "Sanyi Intl. Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "264027N",
+    "longitude": "1001437E"
+}, {
+    "code": "LST",
+    "name": "Launceston",
+    "shortName": "Launceston Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "413243S",
+    "longitude": "1471240E"
+}, {
+    "code": "MLE",
+    "name": "Malé",
+    "shortName": "Velana Intl. Airport",
+    "countryCode": "MV",
+    "countryName": "Maldives",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "041130N",
+    "longitude": "0733145E"
+}, {
+    "code": "NGB",
+    "name": "Ningbo",
+    "shortName": "Lishe International Airpt",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "294936N",
+    "longitude": "1212743E"
+}, {
+    "code": "PAE",
+    "name": "Seattle(Paine Field)",
+    "shortName": "Snohomish County Airport",
+    "countryCode": "US",
+    "countryName": "United States of America",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "475510N",
+    "longitude": "1221701W"
+}, {
+    "code": "RGN",
+    "name": "Yangon",
+    "shortName": "Yangon Intl. Airport",
+    "countryCode": "MM",
+    "countryName": "Myanmar",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "165423N",
+    "longitude": "0960820E"
+}, {
+    "code": "XIY",
+    "name": "Xi'an",
+    "shortName": "Xianyang Intl. Airpt",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "342652N",
+    "longitude": "1084514E"
+}, {
+    "code": "BKI",
+    "name": "Kota Kinabalu",
+    "shortName": "K. K. Intl. Airpt.",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "currencyCode": "MYR",
+    "macCode": null,
+    "latitude": "055614N",
+    "longitude": "1160311E"
+}, {
+    "code": "DAD",
+    "name": "Da Nang",
+    "shortName": "Da Nang Intl. Airport",
+    "countryCode": "VN",
+    "countryName": "Vietnam",
+    "currencyCode": "VND",
+    "macCode": null,
+    "latitude": "160238N",
+    "longitude": "1081158E"
+}, {
+    "code": "DVO",
+    "name": "Davao",
+    "shortName": "Francisco Bangoy Airport",
+    "countryCode": "PH",
+    "countryName": "Philippines",
+    "currencyCode": "PHP",
+    "macCode": null,
+    "latitude": "070731N",
+    "longitude": "1253844E"
+}, {
+    "code": "MDC",
+    "name": "Manado",
+    "shortName": "Sam Ratulangi Intl",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "013257N",
+    "longitude": "1245535E"
+}, {
+    "code": "MDL",
+    "name": "Mandalay",
+    "shortName": "Mandalay Intl. AIrport",
+    "countryCode": "MM",
+    "countryName": "Myanmar",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "214208N",
+    "longitude": "0955841E"
+}, {
+    "code": "USM",
+    "name": "Koh Samui",
+    "shortName": "Samui Airport",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "093301N",
+    "longitude": "1000345E"
+}, {
+    "code": "DLC",
+    "name": "Dalian",
+    "shortName": "Zhoushuizi Intl Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "385756N",
+    "longitude": "1213219E"
+}, {
+    "code": "ADB",
+    "name": "Izmir",
+    "shortName": "Adnan Menderes Airport",
+    "countryCode": "TR",
+    "countryName": "Turkey",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "381733N",
+    "longitude": "0270925E"
+}, {
+    "code": "AKL",
+    "name": "Auckland",
+    "shortName": "Auckland Airport",
+    "countryCode": "NZ",
+    "countryName": "New Zealand",
+    "currencyCode": "NZD",
+    "macCode": null,
+    "latitude": "370035S",
+    "longitude": "1744730E"
+}, {
+    "code": "AMD",
+    "name": "Ahmedabad",
+    "shortName": "S. V. Patel Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "230438N",
+    "longitude": "0723805E"
+}, {
+    "code": "AMS",
+    "name": "Amsterdam",
+    "shortName": "Schiphol Airport",
+    "countryCode": "NL",
+    "countryName": "Netherlands",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "521829N",
+    "longitude": "0044551E"
+}, {
+    "code": "ARN",
+    "name": "Stockholm",
+    "shortName": "Arlanda Airport",
+    "countryCode": "SE",
+    "countryName": "Sweden",
+    "currencyCode": "SEK",
+    "macCode": null,
+    "latitude": "593907N",
+    "longitude": "0175507E"
+}, {
+    "code": "ATH",
+    "name": "Athens",
+    "shortName": "Athens Intl. Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "375611N",
+    "longitude": "0235640E"
+}, {
+    "code": "ATQ",
+    "name": "Amritsar",
+    "shortName": "Amritsar International Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "314225N",
+    "longitude": "0744750E"
+}, {
+    "code": "AXD",
+    "name": "Alexandroupoli",
+    "shortName": "Alexandroupolis Airpt",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "405121N",
+    "longitude": "0255723E"
+}, {
+    "code": "BCN",
+    "name": "Barcelona",
+    "shortName": "El Prat Airport",
+    "countryCode": "ES",
+    "countryName": "Spain",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "411749N",
+    "longitude": "0020442E"
+}, {
+    "code": "BER",
+    "name": "Berlin",
+    "shortName": "Brandenburg Airport",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "522200N",
+    "longitude": "0133012E"
+}, {
+    "code": "BOM",
+    "name": "Mumbai",
+    "shortName": "C. Shivaji Intl. Airpt.",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "190519N",
+    "longitude": "0725205E"
+}, {
+    "code": "BRU",
+    "name": "Brussels",
+    "shortName": "Brussels Airport",
+    "countryCode": "BE",
+    "countryName": "Belgium",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "505405N",
+    "longitude": "0042904E"
+}, {
+    "code": "CAI",
+    "name": "Cairo",
+    "shortName": "Cairo Intl. Airport",
+    "countryCode": "EG",
+    "countryName": "Egypt",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "300719N",
+    "longitude": "0312420E"
+}, {
+    "code": "CCU",
+    "name": "Kolkata",
+    "shortName": "Netaji S.C.Bose Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "223917N",
+    "longitude": "0882648E"
+}, {
+    "code": "CDG",
+    "name": "Paris",
+    "shortName": "Charles De Gaulle Airport",
+    "countryCode": "FR",
+    "countryName": "France",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "490035N",
+    "longitude": "0023252E"
+}, {
+    "code": "CFU",
+    "name": "Corfu",
+    "shortName": "Corfu Intl. Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "393607N",
+    "longitude": "0195442E"
+}, {
+    "code": "CGO",
+    "name": "Zhengzhou",
+    "shortName": "Xinzheng Intl Apt",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "343110N",
+    "longitude": "1135028E"
+}, {
+    "code": "CHC",
+    "name": "Christchurch",
+    "shortName": "CHC Intl. Airpt.",
+    "countryCode": "NZ",
+    "countryName": "New Zealand",
+    "currencyCode": "NZD",
+    "macCode": null,
+    "latitude": "432922S",
+    "longitude": "1723156E"
+}, {
+    "code": "CHQ",
+    "name": "Chania",
+    "shortName": "Daskalogiannis Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "353154N",
+    "longitude": "0240859E"
+}, {
+    "code": "CJB",
+    "name": "Coimbatore",
+    "shortName": "Coimbatore International Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "110148N",
+    "longitude": "0770236E"
+}, {
+    "code": "CKG",
+    "name": "Chongqing",
+    "shortName": "Jiangbei Intl. Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "294310N",
+    "longitude": "1063831E"
+}, {
+    "code": "CPH",
+    "name": "Copenhagen",
+    "shortName": "Kastrup Airport",
+    "countryCode": "DK",
+    "countryName": "Denmark",
+    "currencyCode": "DKK",
+    "macCode": null,
+    "latitude": "553713N",
+    "longitude": "0123901E"
+}, {
+    "code": "CPT",
+    "name": "Cape Town",
+    "shortName": "Cape Town Intl. Airpt.",
+    "countryCode": "ZA",
+    "countryName": "South Africa",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "335753S",
+    "longitude": "0183606E"
+}, {
+    "code": "CSX",
+    "name": "Changsha",
+    "shortName": "Huanghua Intl. Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "281137N",
+    "longitude": "1131304E"
+}, {
+    "code": "CTU",
+    "name": "Chengdu",
+    "shortName": "Shuangliu Intl. Airpt.",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "304200N",
+    "longitude": "1035700E"
+}, {
+    "code": "DEL",
+    "name": "Delhi",
+    "shortName": "Indira Gandhi Intl. Airpt.",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "283359N",
+    "longitude": "0770611E"
+}, {
+    "code": "DME",
+    "name": "Moscow",
+    "shortName": "Domodedovo Airport",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "552432N",
+    "longitude": "0375423E"
+}, {
+    "code": "DOH",
+    "name": "Doha",
+    "shortName": "Hamad International Airport",
+    "countryCode": "QA",
+    "countryName": "Qatar",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "251628N",
+    "longitude": "0513630E"
+}, {
+    "code": "DRW",
+    "name": "Darwin",
+    "shortName": "Darwin Intl. Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "122453S",
+    "longitude": "1305236E"
+}, {
+    "code": "DUS",
+    "name": "Dusseldorf",
+    "shortName": "Düsseldorf Intl. Airpt",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "511722N",
+    "longitude": "0064600E"
+}, {
+    "code": "DXB",
+    "name": "Dubai",
+    "shortName": "Dubai Intl. Airport",
+    "countryCode": "AE",
+    "countryName": "United Arab Emirates",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "251510N",
+    "longitude": "0552152E"
+}, {
+    "code": "DYG",
+    "name": "Dayong",
+    "shortName": "Hehua Intl. Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "290616N",
+    "longitude": "1102635E"
+}, {
+    "code": "EFL",
+    "name": "Kefalonia",
+    "shortName": "Kephalonia Intl Airpt",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "380712N",
+    "longitude": "0203002E"
+}, {
+    "code": "FCO",
+    "name": "Rome",
+    "shortName": "Fiumicino Airpt",
+    "countryCode": "IT",
+    "countryName": "Italy",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "414801N",
+    "longitude": "0121420E"
+}, {
+    "code": "FOC",
+    "name": "Fuzhou",
+    "shortName": "Changle Intl. Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "255606N",
+    "longitude": "1193948E"
+}, {
+    "code": "FRA",
+    "name": "Frankfurt",
+    "shortName": "Frankfurt Intl. Airpt",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "500159N",
+    "longitude": "0083414E"
+}, {
+    "code": "FUK",
+    "name": "Fukuoka",
+    "shortName": "Fukuoka Airport",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "currencyCode": "JPY",
+    "macCode": null,
+    "latitude": "333509N",
+    "longitude": "1302702E"
+}, {
+    "code": "GUM",
+    "name": "Guam",
+    "shortName": "Antonio B. Won Pat Airpt.",
+    "countryCode": "GU",
+    "countryName": "Guam",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "132900N",
+    "longitude": "1444746E"
+}, {
+    "code": "HER",
+    "name": "Heraklion",
+    "shortName": "Heraklion Intl. Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "352023N",
+    "longitude": "0251049E"
+}, {
+    "code": "HGH",
+    "name": "Hangzhou",
+    "shortName": "Xiaoshan Intl. Airpt.",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "301358N",
+    "longitude": "1202609E"
+}, {
+    "code": "HIJ",
+    "name": "Hiroshima",
+    "shortName": "Hiroshima Airport",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "currencyCode": "JPY",
+    "macCode": null,
+    "latitude": "342610N",
+    "longitude": "1325510E"
+}, {
+    "code": "HND",
+    "name": "Tokyo (Haneda)",
+    "shortName": "Haneda Airport",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "currencyCode": "JPY",
+    "macCode": "TYO",
+    "latitude": "353308N",
+    "longitude": "1394647E"
+}, {
+    "code": "HNL",
+    "name": "Honolulu (Hawaii)",
+    "shortName": "Daniel K. Inouye Airpt.",
+    "countryCode": "US",
+    "countryName": "United States of America",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "211940N",
+    "longitude": "1575520W"
+}, {
+    "code": "HRB",
+    "name": "Harbin",
+    "shortName": "Taiping Intl. Airpt.",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "453724N",
+    "longitude": "1261501E"
+}, {
+    "code": "IAH",
+    "name": "Houston",
+    "shortName": "George Bush Intcon Airpt",
+    "countryCode": "US",
+    "countryName": "United States of America",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "295904N",
+    "longitude": "0952029W"
+}, {
+    "code": "ILO",
+    "name": "Iloilo City",
+    "shortName": "Iloilo Intl Airport",
+    "countryCode": "PH",
+    "countryName": "Philippines",
+    "currencyCode": "PHP",
+    "macCode": null,
+    "latitude": "104247N",
+    "longitude": "1223243E"
+}, {
+    "code": "IOA",
+    "name": "Ioannina",
+    "shortName": "King Pyrrhus Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "394147N",
+    "longitude": "0204921E"
+}, {
+    "code": "IPH",
+    "name": "Ipoh",
+    "shortName": "Sultan Azlan Shah Airport",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "currencyCode": "MYR",
+    "macCode": null,
+    "latitude": "043409N",
+    "longitude": "1010535E"
+}, {
+    "code": "IST",
+    "name": "Istanbul",
+    "shortName": "Atatürk Airport",
+    "countryCode": "TR",
+    "countryName": "Turkey",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "411614N",
+    "longitude": "0284433E"
+}, {
+    "code": "JAI",
+    "name": "Jaipur",
+    "shortName": "Jaipur Intl. Airpt.",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "264918N",
+    "longitude": "0754822E"
+}, {
+    "code": "JED",
+    "name": "Jeddah",
+    "shortName": "King Abdulaziz Airpt.",
+    "countryCode": "SA",
+    "countryName": "Saudi Arabia",
+    "currencyCode": "SAR",
+    "macCode": null,
+    "latitude": "214046N",
+    "longitude": "0390924E"
+}, {
+    "code": "JFK",
+    "name": "New York",
+    "shortName": "John F. Kennedy Airpt.",
+    "countryCode": "US",
+    "countryName": "United States of America",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "403823N",
+    "longitude": "0734644W"
+}, {
+    "code": "JJN",
+    "name": "Quanzhou",
+    "shortName": "Jinjiang Intl Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "244744N",
+    "longitude": "1183517E"
+}, {
+    "code": "JKH",
+    "name": "Chios",
+    "shortName": "Chios Island Airpt.",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "382035N",
+    "longitude": "0260826E"
+}, {
+    "code": "JMK",
+    "name": "Mykonos",
+    "shortName": "Mykonos Island Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "372606N",
+    "longitude": "0252053E"
+}, {
+    "code": "JNB",
+    "name": "Johannesburg",
+    "shortName": "O. R. Tambo Airport",
+    "countryCode": "ZA",
+    "countryName": "South Africa",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "260821S",
+    "longitude": "0281446E"
+}, {
+    "code": "JTR",
+    "name": "Santorini",
+    "shortName": "Santorini Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "362357N",
+    "longitude": "0252846E"
+}, {
+    "code": "KBR",
+    "name": "Kota Bharu",
+    "shortName": "Sultan Ismail P Airpt",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "currencyCode": "MYR",
+    "macCode": null,
+    "latitude": "061003N",
+    "longitude": "1021728E"
+}, {
+    "code": "KGI",
+    "name": "Kalgoorlie",
+    "shortName": "Boulder Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "304729S",
+    "longitude": "1212749E"
+}, {
+    "code": "KGS",
+    "name": "Kos",
+    "shortName": "Hippocrates Intl Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "364736N",
+    "longitude": "0270530E"
+}, {
+    "code": "KHN",
+    "name": "Nanchang",
+    "shortName": "Changbei Intl. Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "285150N",
+    "longitude": "1155408E"
+}, {
+    "code": "KMG",
+    "name": "Kunming",
+    "shortName": "Changshui Intl Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "250631N",
+    "longitude": "1025606E"
+}, {
+    "code": "KTM",
+    "name": "Kathmandu",
+    "shortName": "Tribhuvan Intl Airpt",
+    "countryCode": "NP",
+    "countryName": "Nepal",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "274148N",
+    "longitude": "0852133E"
+}, {
+    "code": "KUA",
+    "name": "Kuantan",
+    "shortName": "Sultan Hj. A. Shah Airpt",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "currencyCode": "MYR",
+    "macCode": null,
+    "latitude": "034651N",
+    "longitude": "1031234E"
+}, {
+    "code": "KVA",
+    "name": "Kavala",
+    "shortName": "Kavala Intl Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "405448N",
+    "longitude": "0243709E"
+}, {
+    "code": "LAX",
+    "name": "Los Angeles",
+    "shortName": "L. A. Intl Airport",
+    "countryCode": "US",
+    "countryName": "United States of America",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "335633N",
+    "longitude": "1182429W"
+}, {
+    "code": "LCA",
+    "name": "Larnaca",
+    "shortName": "Larnaca Intl. Airport",
+    "countryCode": "CY",
+    "countryName": "Cyprus, Republic of",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "345230N",
+    "longitude": "0333729E"
+}, {
+    "code": "LHR",
+    "name": "London (Heathrow)",
+    "shortName": "Heathrow Airport",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "currencyCode": "GBP",
+    "macCode": null,
+    "latitude": "512839N",
+    "longitude": "0002741W"
+}, {
+    "code": "LKO",
+    "name": "Lucknow",
+    "shortName": "Chaudhary C. Singh Airpt",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "264537N",
+    "longitude": "0805249E"
+}, {
+    "code": "LPQ",
+    "name": "Luang Prabang",
+    "shortName": "Luang Prabang Airp",
+    "countryCode": "LA",
+    "countryName": "Laos",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "195352N",
+    "longitude": "1020939E"
+}, {
+    "code": "LPT",
+    "name": "Lampang",
+    "shortName": "Lampang Airport",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "181620N",
+    "longitude": "0993015E"
+}, {
+    "code": "LXS",
+    "name": "Lemnos",
+    "shortName": "Lemnos Intl. Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "395501N",
+    "longitude": "0251411E"
+}, {
+    "code": "MAN",
+    "name": "Manchester",
+    "shortName": "Manchester Airport",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "currencyCode": "GBP",
+    "macCode": null,
+    "latitude": "532113N",
+    "longitude": "0021630W"
+}, {
+    "code": "MCY",
+    "name": "Sunshine Coast",
+    "shortName": "Sunshine C. Airpt",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "263615S",
+    "longitude": "1530524E"
+}, {
+    "code": "MJT",
+    "name": "Mytilene",
+    "shortName": "Odysseas Elytis Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "390312N",
+    "longitude": "0263608E"
+}, {
+    "code": "MPH",
+    "name": "Boracay",
+    "shortName": "Godofredo P. R. Airport",
+    "countryCode": "PH",
+    "countryName": "Philippines",
+    "currencyCode": "PHP",
+    "macCode": null,
+    "latitude": "115528N",
+    "longitude": "1215715E"
+}, {
+    "code": "MUC",
+    "name": "Munich",
+    "shortName": "Munich Intl. Airport",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "482114N",
+    "longitude": "0114710E"
+}, {
+    "code": "MXP",
+    "name": "Milan",
+    "shortName": "Malpensa Airport",
+    "countryCode": "IT",
+    "countryName": "Italy",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "453748N",
+    "longitude": "0084323E"
+}, {
+    "code": "NGO",
+    "name": "Nagoya",
+    "shortName": "Chubu Centrair Airport",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "currencyCode": "JPY",
+    "macCode": null,
+    "latitude": "345119N",
+    "longitude": "1364830E"
+}, {
+    "code": "NNG",
+    "name": "Nanning",
+    "shortName": "Wuxu Intl. Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "223500N",
+    "longitude": "1080800E"
+}, {
+    "code": "OTP",
+    "name": "Bucharest",
+    "shortName": "Henri Coandă Airport",
+    "countryCode": "RO",
+    "countryName": "Romania",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "443420N",
+    "longitude": "0260608E"
+}, {
+    "code": "PEK",
+    "name": "Beijing",
+    "shortName": "Beijing Capital Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "400448N",
+    "longitude": "1163504E"
+}, {
+    "code": "PVG",
+    "name": "Shanghai",
+    "shortName": "Pudong Intl. Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "310836N",
+    "longitude": "1214819E"
+}, {
+    "code": "RHO",
+    "name": "Rhodes",
+    "shortName": "Diagoras Intl. Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "362420N",
+    "longitude": "0280510E"
+}, {
+    "code": "RUH",
+    "name": "Riyadh",
+    "shortName": "King Khalid Intl. Airport",
+    "countryCode": "SA",
+    "countryName": "Saudi Arabia",
+    "currencyCode": "SAR",
+    "macCode": null,
+    "latitude": "245728N",
+    "longitude": "0464156E"
+}, {
+    "code": "SFO",
+    "name": "San Francisco",
+    "shortName": "San F. Intl. Airpt",
+    "countryCode": "US",
+    "countryName": "United States of America",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "373708N",
+    "longitude": "1222330W"
+}, {
+    "code": "SKG",
+    "name": "Thessaloniki",
+    "shortName": "Makedonia Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "403111N",
+    "longitude": "0225815E"
+}, {
+    "code": "SMI",
+    "name": "Samos",
+    "shortName": "Samos Intl. Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "374124N",
+    "longitude": "0265442E"
+}, {
+    "code": "SOF",
+    "name": "Sofia",
+    "shortName": "Sofia Airport",
+    "countryCode": "BG",
+    "countryName": "Bulgaria",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "424142N",
+    "longitude": "0232430E"
+}, {
+    "code": "STR",
+    "name": "Stuttgart",
+    "shortName": "Stuttgart Airport",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "484124N",
+    "longitude": "0091319E"
+}, {
+    "code": "SXB",
+    "name": "Strasbourg",
+    "shortName": "Strasbourg Airport",
+    "countryCode": "FR",
+    "countryName": "France",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "483231N",
+    "longitude": "0073804E"
+}, {
+    "code": "TIA",
+    "name": "Tirana",
+    "shortName": "Rinas Intl. Airport",
+    "countryCode": "AL",
+    "countryName": "Albania",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "412454N",
+    "longitude": "0194315E"
+}, {
+    "code": "TLV",
+    "name": "Tel Aviv",
+    "shortName": "Ben Gurion(Natbag) Airpt.",
+    "countryCode": "IL",
+    "countryName": "Israel",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "320026N",
+    "longitude": "0345250E"
+}, {
+    "code": "TNA",
+    "name": "Jinan",
+    "shortName": "Yaoqiang Intl. Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "365125N",
+    "longitude": "1171257E"
+}, {
+    "code": "TXL",
+    "name": "Berlin",
+    "shortName": "Tegel Airport",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "523335N",
+    "longitude": "0131716E"
+}, {
+    "code": "VTE",
+    "name": "Vientiane",
+    "shortName": "Wattay Intl. Airport",
+    "countryCode": "LA",
+    "countryName": "Laos",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "175918N",
+    "longitude": "1023348E"
+}, {
+    "code": "VTZ",
+    "name": "Visakhapatnam",
+    "shortName": "Visakhapatnam Apt",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "174316N",
+    "longitude": "0831328E"
+}, {
+    "code": "WLG",
+    "name": "Wellington",
+    "shortName": "Wellington Intl Airpt",
+    "countryCode": "NZ",
+    "countryName": "New Zealand",
+    "currencyCode": "NZD",
+    "macCode": null,
+    "latitude": "411937S",
+    "longitude": "1744825E"
+}, {
+    "code": "WUH",
+    "name": "Wuhan",
+    "shortName": "Tianhe Intl. Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "304702N",
+    "longitude": "1141229E"
+}, {
+    "code": "WUX",
+    "name": "Wuxi/Suzhou",
+    "shortName": "Sunan Shuofang Airpt",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "312941N",
+    "longitude": "1202546E"
+}, {
+    "code": "XMN",
+    "name": "Xiamen",
+    "shortName": "Gaoqi Intl. Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "243239N",
+    "longitude": "1180740E"
+}, {
+    "code": "YIW",
+    "name": "Yiwu",
+    "shortName": "Yiwu Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "292042N",
+    "longitude": "1200157E"
+}, {
+    "code": "ZRH",
+    "name": "Zurich",
+    "shortName": "Zurich Airport",
+    "countryCode": "CH",
+    "countryName": "Switzerland",
+    "currencyCode": "CHF",
+    "macCode": null,
+    "latitude": "472730N",
+    "longitude": "0083306E"
+}, {
+    "code": "AAP",
+    "name": "Aji Pangeran Tumenggung Pranoto International Airport",
+    "shortName": "Samarinda Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "002223S",
+    "longitude": "1171503E"
+}, {
+    "code": "ADD",
+    "name": "Bole International Airport",
+    "shortName": "Bole International Airport",
+    "countryCode": "ET",
+    "countryName": "Ethiopia",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "085840N",
+    "longitude": "0384753E"
+}, {
+    "code": "AGP",
+    "name": "Malaga Airport",
+    "shortName": "Malaga Airport",
+    "countryCode": "ES",
+    "countryName": "Spain",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "364030N",
+    "longitude": "0042957W"
+}, {
+    "code": "ALA",
+    "name": "Almaty International Airport",
+    "shortName": "Almaty International Airport",
+    "countryCode": "KZ",
+    "countryName": "Kazakhstan",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "432112N",
+    "longitude": "0770232E"
+}, {
+    "code": "AMQ",
+    "name": "Pattimura Airport",
+    "shortName": "Pattimura Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "034222S",
+    "longitude": "1280519E"
+}, {
+    "code": "AOK",
+    "name": "Karpathos Airport",
+    "shortName": "Karpathos Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "352517N",
+    "longitude": "0270846E"
+}, {
+    "code": "AUH",
+    "name": "Abu Dhabi International Airport",
+    "shortName": "Abu Dhabi International Airport",
+    "countryCode": "AE",
+    "countryName": "United Arab Emirates",
+    "currencyCode": "AED",
+    "macCode": null,
+    "latitude": "242559N",
+    "longitude": "0543904E"
+}, {
+    "code": "BAH",
+    "name": "Bahrain International Airport",
+    "shortName": "Bahrain International Airport",
+    "countryCode": "BH",
+    "countryName": "Bahrain",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "261615N",
+    "longitude": "0503815E"
+}, {
+    "code": "BBI",
+    "name": "Biju Patnaik Airport",
+    "shortName": "Biju Patnaik Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "201440N",
+    "longitude": "0854904E"
+}, {
+    "code": "BDJ",
+    "name": "Syamsudin Noor Airport",
+    "shortName": "Syamsudin Noor Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "032800S",
+    "longitude": "1144500E"
+}, {
+    "code": "BEJ",
+    "name": "Kalimarau Airport",
+    "shortName": "Kalimarau Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "020919N",
+    "longitude": "1172558E"
+}, {
+    "code": "BHX",
+    "name": "Birmingham Airport",
+    "shortName": "Birmingham Airport",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "currencyCode": "GBP",
+    "macCode": null,
+    "latitude": "522713N",
+    "longitude": "0014452W"
+}, {
+    "code": "BME",
+    "name": "Broome",
+    "shortName": "Broome International Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "175656S",
+    "longitude": "1221342E"
+}, {
+    "code": "BMU",
+    "name": "Sultan M. Salahuddin Airport",
+    "shortName": "Sultan M. Salahuddin Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "083223S",
+    "longitude": "1184114E"
+}, {
+    "code": "BNK",
+    "name": "Ballina",
+    "shortName": "Ballina Byron Gateway Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "285002S",
+    "longitude": "1533345E"
+}, {
+    "code": "BOD",
+    "name": "Bordeaux Airport",
+    "shortName": "Bordeaux Airport",
+    "countryCode": "FR",
+    "countryName": "France",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "444943N",
+    "longitude": "0004255W"
+}, {
+    "code": "BRS",
+    "name": "Bristol Airport",
+    "shortName": "Bristol Airport",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "currencyCode": "GBP",
+    "macCode": null,
+    "latitude": "512257N",
+    "longitude": "0024308W"
+}, {
+    "code": "BSL",
+    "name": "EuroAirport Swiss",
+    "shortName": "EuroAirport Swiss",
+    "countryCode": "CH",
+    "countryName": "Switzerland",
+    "currencyCode": "CHF",
+    "macCode": null,
+    "latitude": "473604N",
+    "longitude": "0073118E"
+}, {
+    "code": "BWX",
+    "name": "Blimbingsari Airport",
+    "shortName": "Blimbingsari Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "081837S",
+    "longitude": "1142024E"
+}, {
+    "code": "CCK",
+    "name": "Cocos Islands",
+    "shortName": "Cocos (Keeling) Islands Airport",
+    "countryCode": "CC",
+    "countryName": "Cocos (Keeling) Islands",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "121115S",
+    "longitude": "0964953E"
+}, {
+    "code": "CGQ",
+    "name": "Longjia International Airport",
+    "shortName": "Longjia International Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "435300N",
+    "longitude": "1251900E"
+}, {
+    "code": "CJJ",
+    "name": "Cheongju",
+    "shortName": "Cheongju  International Airport",
+    "countryCode": "KR",
+    "countryName": "South Korea",
+    "currencyCode": "KRW",
+    "macCode": null,
+    "latitude": "364300N",
+    "longitude": "1273024E"
+}, {
+    "code": "CJU",
+    "name": "Jeju",
+    "shortName": "Jeju Intl Airport",
+    "countryCode": "KR",
+    "countryName": "South Korea",
+    "currencyCode": "KRW",
+    "macCode": null,
+    "latitude": "333041N",
+    "longitude": "1262935E"
+}, {
+    "code": "CNN",
+    "name": "Chulman Airport",
+    "shortName": "Chulman Airport",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "currencyCode": "RUB",
+    "macCode": null,
+    "latitude": "115457N",
+    "longitude": "0753245E"
+}, {
+    "code": "COV",
+    "name": "Çukurova International Airport",
+    "shortName": "Çukurova International Airport",
+    "countryCode": "TR",
+    "countryName": "Turkey",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "365330N",
+    "longitude": "0350417E"
+}, {
+    "code": "CTA",
+    "name": "Fontanarossa Airport",
+    "shortName": "Fontanarossa Airport",
+    "countryCode": "IT",
+    "countryName": "Italy",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "372800N",
+    "longitude": "0150350E"
+}, {
+    "code": "CXR",
+    "name": "Nha Trang (Cam Ranh)",
+    "shortName": "Cam Ranh International Airport",
+    "countryCode": "VN",
+    "countryName": "Vietnam",
+    "currencyCode": "VND",
+    "macCode": null,
+    "latitude": "115953N",
+    "longitude": "1091309E"
+}, {
+    "code": "DIL",
+    "name": "Pres. Nicolau Lobato Airport",
+    "shortName": "Pres. Nicolau Lobato Airport",
+    "countryCode": "TL",
+    "countryName": "Timor Leste",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "083248S",
+    "longitude": "1253129E"
+}, {
+    "code": "DJJ",
+    "name": "Sentani Airport",
+    "shortName": "Sentani Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "023437S",
+    "longitude": "1403059E"
+}, {
+    "code": "DMM",
+    "name": "King Fahd International Airport",
+    "shortName": "King Fahd International Airport",
+    "countryCode": "SA",
+    "countryName": "Saudi Arabia",
+    "currencyCode": "SAR",
+    "macCode": null,
+    "latitude": "262816N",
+    "longitude": "0494752E"
+}, {
+    "code": "EDI",
+    "name": "Edinburgh Airport",
+    "shortName": "Edinburgh Airport",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "currencyCode": "GBP",
+    "macCode": null,
+    "latitude": "555700N",
+    "longitude": "0032221W"
+}, {
+    "code": "EVN",
+    "name": "Zvartnots International Airport",
+    "shortName": "Zvartnots International Airport",
+    "countryCode": "AM",
+    "countryName": "Armenia",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "400850N",
+    "longitude": "0442345E"
+}, {
+    "code": "EWR",
+    "name": "Newark Liberty International Airport",
+    "shortName": "Newark Liberty International Air",
+    "countryCode": "US",
+    "countryName": "United States of America",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "404133N",
+    "longitude": "0741007W"
+}, {
+    "code": "FAO",
+    "name": "Faro Airport",
+    "shortName": "Faro Airport",
+    "countryCode": "PT",
+    "countryName": "Portugal",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "370052N",
+    "longitude": "0075757W"
+}, {
+    "code": "FNC",
+    "name": "Madeira Airport",
+    "shortName": "Madeira Airport",
+    "countryCode": "PT",
+    "countryName": "Portugal",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "324139N",
+    "longitude": "0164641W"
+}, {
+    "code": "FRU",
+    "name": "Manas International Airport",
+    "shortName": "Manas International Airport",
+    "countryCode": "KG",
+    "countryName": "Kyrgyzstan",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "430341N",
+    "longitude": "0742839E"
+}, {
+    "code": "FSZ",
+    "name": "Mount Fuji Airport",
+    "shortName": "Mount Fuji Airport",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "currencyCode": "JPY",
+    "macCode": null,
+    "latitude": "344749N",
+    "longitude": "1381051E"
+}, {
+    "code": "GAU",
+    "name": "Gopinah Bordoloi Int'l Airport",
+    "shortName": "Gopinah Bordoloi Int'l Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "260622N",
+    "longitude": "0913509E"
+}, {
+    "code": "GLA",
+    "name": "Glasgow International Airport",
+    "shortName": "Glasgow International Airport",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "currencyCode": "GBP",
+    "macCode": null,
+    "latitude": "555219N",
+    "longitude": "0042600W"
+}, {
+    "code": "GMP",
+    "name": "Gimpo International Airport",
+    "shortName": "Gimpo International Airport",
+    "countryCode": "KR",
+    "countryName": "South Korea",
+    "currencyCode": "KRW",
+    "macCode": null,
+    "latitude": "373330N",
+    "longitude": "1264726E"
+}, {
+    "code": "GOI",
+    "name": "Dabolim Airport",
+    "shortName": "Dabolim Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "152300N",
+    "longitude": "0735000E"
+}, {
+    "code": "GOX",
+    "name": "Mopa Airport",
+    "shortName": "Mopa Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "154354N",
+    "longitude": "0735205E"
+}, {
+    "code": "GVA",
+    "name": "Geneva",
+    "shortName": "Geneva International Airport",
+    "countryCode": "CH",
+    "countryName": "Switzerland",
+    "currencyCode": "CHF",
+    "macCode": null,
+    "latitude": "461417N",
+    "longitude": "0060632E"
+}, {
+    "code": "HAM",
+    "name": "Hamburg Airport",
+    "shortName": "Hamburg Airport",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "533749N",
+    "longitude": "0095918E"
+}, {
+    "code": "HDO",
+    "name": "Hindon Airport",
+    "shortName": "Hindon Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "284218N",
+    "longitude": "0772032E"
+}, {
+    "code": "HGN",
+    "name": "Mae Hong Son Airport",
+    "shortName": "Mae Hong Son Airport",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "191806N",
+    "longitude": "0975830E"
+}, {
+    "code": "HLP",
+    "name": "Halim Perdanakusuma Airport",
+    "shortName": "Halim Perdanakusuma Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "061600S",
+    "longitude": "1065328E"
+}, {
+    "code": "HTI",
+    "name": "Hamilton",
+    "shortName": "Hamilton Island Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "202129S",
+    "longitude": "1485706E"
+}, {
+    "code": "IBZ",
+    "name": "Ibiza Airport",
+    "shortName": "Ibiza Airport",
+    "countryCode": "ES",
+    "countryName": "Spain",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "385222N",
+    "longitude": "0012223E"
+}, {
+    "code": "IXB",
+    "name": "Bagdogra Airport",
+    "shortName": "Bagdogra Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "264052N",
+    "longitude": "0881943E"
+}, {
+    "code": "JIK",
+    "name": "Ikaria Island Airport",
+    "shortName": "Ikaria Island Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "374058N",
+    "longitude": "0262049E"
+}, {
+    "code": "JKL",
+    "name": "Kalymnos Island Airport",
+    "shortName": "Kalymnos Island Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "365748N",
+    "longitude": "0265628E"
+}, {
+    "code": "JNX",
+    "name": "Naxos Airport",
+    "shortName": "Naxos Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "370456N",
+    "longitude": "0252207E"
+}, {
+    "code": "JSI",
+    "name": "Alex. Papadiamantis Airport",
+    "shortName": "Alex. Papadiamantis Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "391038N",
+    "longitude": "0233013E"
+}, {
+    "code": "JSY",
+    "name": "Dimitrios Vikelas Airport",
+    "shortName": "Dimitrios Vikelas Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "372522N",
+    "longitude": "0245700E"
+}, {
+    "code": "JTY",
+    "name": "Astypalaia Island Airport",
+    "shortName": "Astypalaia Island Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "363448N",
+    "longitude": "0262232E"
+}, {
+    "code": "KDI",
+    "name": "Halu Oleo Airport",
+    "shortName": "Halu Oleo Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "040500S",
+    "longitude": "1222600E"
+}, {
+    "code": "KIT",
+    "name": "Kythira Airport",
+    "shortName": "Kythira Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "361627N",
+    "longitude": "0230101E"
+}, {
+    "code": "KJT",
+    "name": "Kertajati",
+    "shortName": "Kertajati International Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "063905S",
+    "longitude": "1081010E"
+}, {
+    "code": "KNX",
+    "name": "Kununurra",
+    "shortName": "East Kimberley Regional Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "154641S",
+    "longitude": "1284227E"
+}, {
+    "code": "KOE",
+    "name": "El Tari Airport",
+    "shortName": "El Tari Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "101018S",
+    "longitude": "1234016E"
+}, {
+    "code": "KOJ",
+    "name": "Kagoshima Airport",
+    "shortName": "Kagoshima Airport",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "currencyCode": "JPY",
+    "macCode": null,
+    "latitude": "314812N",
+    "longitude": "1304310E"
+}, {
+    "code": "KSO",
+    "name": "Aristotelis Airport",
+    "shortName": "Aristotelis Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "402647N",
+    "longitude": "0211656E"
+}, {
+    "code": "KTA",
+    "name": "Karratha",
+    "shortName": "Karratha Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "204244S",
+    "longitude": "1164624E"
+}, {
+    "code": "KTI",
+    "name": "Phnom Penh",
+    "shortName": "Techo International Airport",
+    "countryCode": "KH",
+    "countryName": "Cambodia",
+    "currencyCode": "KHR",
+    "macCode": null,
+    "latitude": "112136N",
+    "longitude": "1045516E"
+}, {
+    "code": "KWE",
+    "name": "Guiyang",
+    "shortName": "Longdongbao Intl Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "263219N",
+    "longitude": "1064803E"
+}, {
+    "code": "KWJ",
+    "name": "Gwangju Airport",
+    "shortName": "Gwangju Airport",
+    "countryCode": "KR",
+    "countryName": "South Korea",
+    "currencyCode": "KRW",
+    "macCode": null,
+    "latitude": "350735N",
+    "longitude": "1264832E"
+}, {
+    "code": "KZI",
+    "name": "Filippos Airport",
+    "shortName": "Filippos Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "401710N",
+    "longitude": "0215027E"
+}, {
+    "code": "LBJ",
+    "name": "Labuan Bajo (Komodo)",
+    "shortName": "Komodo International Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "083100S",
+    "longitude": "1195300E"
+}, {
+    "code": "LEA",
+    "name": "Learmonth",
+    "shortName": "Learmonth Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "221408S",
+    "longitude": "1140519E"
+}, {
+    "code": "LGW",
+    "name": "London (Gatwick)",
+    "shortName": "Gatwick Airport",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "currencyCode": "GBP",
+    "macCode": null,
+    "latitude": "510853N",
+    "longitude": "0001125W"
+}, {
+    "code": "LIN",
+    "name": "Linate Airport",
+    "shortName": "Linate Airport",
+    "countryCode": "IT",
+    "countryName": "Italy",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "452658N",
+    "longitude": "0091642E"
+}, {
+    "code": "LIS",
+    "name": "Lisboa Airport",
+    "shortName": "Lisboa Airport",
+    "countryCode": "PT",
+    "countryName": "Portugal",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "384627N",
+    "longitude": "0090803W"
+}, {
+    "code": "LTN",
+    "name": "Luton Airport",
+    "shortName": "Luton Airport",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "currencyCode": "GBP",
+    "macCode": null,
+    "latitude": "515229N",
+    "longitude": "0002206W"
+}, {
+    "code": "LYS",
+    "name": "St-Exupery Airport",
+    "shortName": "Exupery Airport",
+    "countryCode": "FR",
+    "countryName": "France",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "454332N",
+    "longitude": "0050454E"
+}, {
+    "code": "MAD",
+    "name": "Adolfo Suarez-Barajas Airport",
+    "shortName": "Madrid–Barajas Airport",
+    "countryCode": "ES",
+    "countryName": "Spain",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "402937N",
+    "longitude": "0033400W"
+}, {
+    "code": "MCT",
+    "name": "Muscat International Airport",
+    "shortName": "Muscat International Airport",
+    "countryCode": "OM",
+    "countryName": "Oman",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "233534N",
+    "longitude": "0581654E"
+}, {
+    "code": "MKY",
+    "name": "Mackay",
+    "shortName": "Mackay Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "211018S",
+    "longitude": "1491047E"
+}, {
+    "code": "MKZ",
+    "name": "Malacca (Melaka)",
+    "shortName": "Malacca International Airport",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "currencyCode": "MYR",
+    "macCode": null,
+    "latitude": "021549N",
+    "longitude": "1021507E"
+}, {
+    "code": "MLG",
+    "name": "Abdul Rachman Saleh Airport",
+    "shortName": "Abdul Rachman Saleh Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "075600S",
+    "longitude": "1124300E"
+}, {
+    "code": "MLO",
+    "name": "Milos Airport",
+    "shortName": "Milos Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "364148N",
+    "longitude": "0242822E"
+}, {
+    "code": "MYJ",
+    "name": "Matsuyama Airport",
+    "shortName": "Matsuyama Airport",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "currencyCode": "JPY",
+    "macCode": null,
+    "latitude": "334920N",
+    "longitude": "1324215E"
+}, {
+    "code": "MYY",
+    "name": "Miri",
+    "shortName": "Miri",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "currencyCode": "MYR",
+    "macCode": null,
+    "latitude": "041931N",
+    "longitude": "1135918E"
+}, {
+    "code": "NAP",
+    "name": "Capodichino Airport",
+    "shortName": "Capodichino Airport",
+    "countryCode": "IT",
+    "countryName": "Italy",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "405304N",
+    "longitude": "0141727E"
+}, {
+    "code": "NCE",
+    "name": "Cote D'Azur Airport",
+    "shortName": "Cote D'Azur Airport",
+    "countryCode": "FR",
+    "countryName": "France",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "433955N",
+    "longitude": "0071254E"
+}, {
+    "code": "NTL",
+    "name": "Newcastle",
+    "shortName": "Newcastle Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "324742S",
+    "longitude": "1515004E"
+}, {
+    "code": "NUM",
+    "name": "Neom Bay Airport",
+    "shortName": "Neom Bay Airport",
+    "countryCode": "SA",
+    "countryName": "Saudi Arabia",
+    "currencyCode": "SAR",
+    "macCode": null,
+    "latitude": "275537N",
+    "longitude": "0351721E"
+}, {
+    "code": "OIT",
+    "name": "Oita Airport",
+    "shortName": "Oita Airport",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "currencyCode": "JPY",
+    "macCode": null,
+    "latitude": "332900N",
+    "longitude": "1314400E"
+}, {
+    "code": "OKA",
+    "name": "Okinawa",
+    "shortName": "Naha Airport",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "currencyCode": "JPY",
+    "macCode": null,
+    "latitude": "261145N",
+    "longitude": "1273845E"
+}, {
+    "code": "ONS",
+    "name": "Onslow",
+    "shortName": "Onslow Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "214008S",
+    "longitude": "1150645E"
+}, {
+    "code": "ORY",
+    "name": "Orly Field",
+    "shortName": "Orly Field",
+    "countryCode": "FR",
+    "countryName": "France",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "484324N",
+    "longitude": "0022246E"
+}, {
+    "code": "PAS",
+    "name": "Paros Airport",
+    "shortName": "Paros Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "370037N",
+    "longitude": "0250743E"
+}, {
+    "code": "PAT",
+    "name": "Jayaprakash Narayan Airport",
+    "shortName": "Jayaprakash Narayan Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "253529N",
+    "longitude": "0850517E"
+}, {
+    "code": "PHE",
+    "name": "Port Hedland",
+    "shortName": "Port Hedland Intl Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "202300S",
+    "longitude": "1183800E"
+}, {
+    "code": "PKX",
+    "name": "Daxing",
+    "shortName": "Beijing Daxing Intl Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "393036N",
+    "longitude": "1162440E"
+}, {
+    "code": "PKY",
+    "name": "Tjilik Riwut Airport",
+    "shortName": "Tjilik Riwut Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "021330S",
+    "longitude": "1135634E"
+}, {
+    "code": "PLW",
+    "name": "Mutiara Airport",
+    "shortName": "Mutiara Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "005507S",
+    "longitude": "1195435E"
+}, {
+    "code": "PMI",
+    "name": "Palma Mallorca Airport",
+    "shortName": "Palma Mallorca Airport",
+    "countryCode": "ES",
+    "countryName": "Spain",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "393306N",
+    "longitude": "0024420E"
+}, {
+    "code": "PNK",
+    "name": "Pontianak",
+    "shortName": "Supadio Intl Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "000903S",
+    "longitude": "1092414E"
+}, {
+    "code": "PNQ",
+    "name": "Lohegaon Airport",
+    "shortName": "Lohegaon Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "183456N",
+    "longitude": "0735511E"
+}, {
+    "code": "PQC",
+    "name": "Phu Quoc",
+    "shortName": "Phu Quoc International Airport",
+    "countryCode": "VN",
+    "countryName": "Vietnam",
+    "currencyCode": "VND",
+    "macCode": null,
+    "latitude": "101012N",
+    "longitude": "1035936E"
+}, {
+    "code": "PRG",
+    "name": "Ruzyne International Airport",
+    "shortName": "Ruzyne International Airport",
+    "countryCode": "CZ",
+    "countryName": "Czech Republic",
+    "currencyCode": "CZK",
+    "macCode": null,
+    "latitude": "500603N",
+    "longitude": "0141536E"
+}, {
+    "code": "PRN",
+    "name": "Pristina International Airport",
+    "shortName": "Pristina International Airport",
+    "countryCode": "RS",
+    "countryName": "Serbia",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "423422N",
+    "longitude": "0210209E"
+}, {
+    "code": "PUS",
+    "name": "Busan",
+    "shortName": "Gimhae Airport",
+    "countryCode": "KR",
+    "countryName": "South Korea",
+    "currencyCode": "KRW",
+    "macCode": null,
+    "latitude": "351036N",
+    "longitude": "1285633E"
+}, {
+    "code": "PUY",
+    "name": "Pula Airport",
+    "shortName": "Pula Airport",
+    "countryCode": "HR",
+    "countryName": "Croatia",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "445337N",
+    "longitude": "0135520E"
+}, {
+    "code": "RAK",
+    "name": "Menara Airport",
+    "shortName": "Menara Airport",
+    "countryCode": "MA",
+    "countryName": "Morocco",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "313625N",
+    "longitude": "0080211W"
+}, {
+    "code": "RJK",
+    "name": "Rijeka Airport",
+    "shortName": "Rijeka Airport",
+    "countryCode": "HR",
+    "countryName": "Croatia",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "451257N",
+    "longitude": "0143406E"
+}, {
+    "code": "SAI",
+    "name": "Siem Reap",
+    "shortName": "Angkor Intl Airport",
+    "countryCode": "KH",
+    "countryName": "Cambodia",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "132210N",
+    "longitude": "1041324E"
+}, {
+    "code": "SBW",
+    "name": "Sibu",
+    "shortName": "Sibu Airport",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "currencyCode": "MYR",
+    "macCode": null,
+    "latitude": "021551N",
+    "longitude": "1115857E"
+}, {
+    "code": "SEA",
+    "name": "Seattle/Tacoma International Airport",
+    "shortName": "Seattle/Tacoma International Air",
+    "countryCode": "US",
+    "countryName": "United States of America",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "472656N",
+    "longitude": "1221834W"
+}, {
+    "code": "SHJ",
+    "name": "Sharjah Airport",
+    "shortName": "Sharjah Airport",
+    "countryCode": "AE",
+    "countryName": "United Arab Emirates",
+    "currencyCode": "AED",
+    "macCode": null,
+    "latitude": "251943N",
+    "longitude": "0553102E"
+}, {
+    "code": "SOC",
+    "name": "Adi Sumarmo Airport",
+    "shortName": "Adi Sumarmo Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "073057S",
+    "longitude": "1104524E"
+}, {
+    "code": "SPU",
+    "name": "Split Airport",
+    "shortName": "Split Airport",
+    "countryCode": "HR",
+    "countryName": "Croatia",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "433130N",
+    "longitude": "0161732E"
+}, {
+    "code": "STV",
+    "name": "Surat Gujarat Airport",
+    "shortName": "Surat Gujarat Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "210651N",
+    "longitude": "0724430E"
+}, {
+    "code": "SWA",
+    "name": "Shantou (Jieyang Chaoshan)",
+    "shortName": "Jieyang Chaoshan Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "232539N",
+    "longitude": "1164545E"
+}, {
+    "code": "SZB",
+    "name": "Subang",
+    "shortName": "Sultan Abdul Aziz Shah Airport",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "currencyCode": "MYR",
+    "macCode": "KUL",
+    "latitude": "030718N",
+    "longitude": "1013316E"
+}, {
+    "code": "TAE",
+    "name": "Daegu",
+    "shortName": "Daegu International Apt",
+    "countryCode": "KR",
+    "countryName": "South Korea",
+    "currencyCode": "KRW",
+    "macCode": null,
+    "latitude": "355300N",
+    "longitude": "1284000E"
+}, {
+    "code": "TBS",
+    "name": "Tbilisi International Airport",
+    "shortName": "Tbilisi International Airport",
+    "countryCode": "GE",
+    "countryName": "Georgia",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "414000N",
+    "longitude": "0445700E"
+}, {
+    "code": "TDX",
+    "name": "Trat Airport",
+    "shortName": "Trat Airport",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "121605N",
+    "longitude": "1021901E"
+}, {
+    "code": "TFU",
+    "name": "Chengdu Tianfu",
+    "shortName": "ChengduTianfu INTL Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "301859N",
+    "longitude": "1042634E"
+}, {
+    "code": "THS",
+    "name": "Sukhothai Airport",
+    "shortName": "Sukhothai Airport",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "171416N",
+    "longitude": "0994906E"
+}, {
+    "code": "TIV",
+    "name": "Tivat Airport",
+    "shortName": "Tivat Airport",
+    "countryCode": "ME",
+    "countryName": "Montenegro",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "422417N",
+    "longitude": "0184324E"
+}, {
+    "code": "TJQ",
+    "name": "Belitung",
+    "shortName": "H.A.S. Hanandjoeddin Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "024514S",
+    "longitude": "1074516E"
+}, {
+    "code": "TKG",
+    "name": "Radin Inten II Airport",
+    "shortName": "Radin Inten II Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "051434S",
+    "longitude": "1051032E"
+}, {
+    "code": "TMC",
+    "name": "Waikabubak Airport",
+    "shortName": "Waikabubak Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "092434S",
+    "longitude": "1191440E"
+}, {
+    "code": "TRK",
+    "name": "Juwata Airport",
+    "shortName": "Juwata Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "031936N",
+    "longitude": "1173400E"
+}, {
+    "code": "TRT",
+    "name": "Toraja Airport",
+    "shortName": "Toraja Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": null,
+    "latitude": "031109S",
+    "longitude": "1195505E"
+}, {
+    "code": "TSV",
+    "name": "Townsville",
+    "shortName": "Townsville International Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "191500S",
+    "longitude": "1464600E"
+}, {
+    "code": "TWU",
+    "name": "Tawau",
+    "shortName": "Tawau Airport",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "currencyCode": "MYR",
+    "macCode": null,
+    "latitude": "041848N",
+    "longitude": "1180719E"
+}, {
+    "code": "UBN",
+    "name": "Chinggis Khaan International Airport",
+    "shortName": "Chinggis Khaan International Apt",
+    "countryCode": "MN",
+    "countryName": "Mongolia",
+    "currencyCode": "USD",
+    "macCode": null,
+    "latitude": "470000N",
+    "longitude": "1060057E"
+}, {
+    "code": "UTP",
+    "name": "Rayong-Pattaya International Airport",
+    "shortName": "Pattaya International Air",
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "currencyCode": "THB",
+    "macCode": null,
+    "latitude": "124047N",
+    "longitude": "1010018E"
+}, {
+    "code": "VCE",
+    "name": "Marco Polo Airport",
+    "shortName": "Marco Polo Airport",
+    "countryCode": "IT",
+    "countryName": "Italy",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "453019N",
+    "longitude": "0122107E"
+}, {
+    "code": "VGA",
+    "name": "Vijayawada Airport",
+    "shortName": "Vijayawada Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "163146N",
+    "longitude": "0804750E"
+}, {
+    "code": "VIE",
+    "name": "Vienna",
+    "shortName": "Vienna International Airport",
+    "countryCode": "AT",
+    "countryName": "Austria",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "480637N",
+    "longitude": "0163441E"
+}, {
+    "code": "VLC",
+    "name": "Valencia Airport",
+    "shortName": "Valencia Airport",
+    "countryCode": "ES",
+    "countryName": "Spain",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "392925N",
+    "longitude": "0002843W"
+}, {
+    "code": "VNS",
+    "name": "Lal Bahadur Shastri Airport",
+    "shortName": "Lal Bahadur Shastri Airport",
+    "countryCode": "IN",
+    "countryName": "India",
+    "currencyCode": "INR",
+    "macCode": null,
+    "latitude": "252707N",
+    "longitude": "0825147E"
+}, {
+    "code": "WAW",
+    "name": "Frederic Chopin Airport",
+    "shortName": "Frederic Chopin Airport",
+    "countryCode": "PL",
+    "countryName": "Poland",
+    "currencyCode": "PLN",
+    "macCode": null,
+    "latitude": "520957N",
+    "longitude": "0205802E"
+}, {
+    "code": "WEH",
+    "name": "Dashuibo Airport",
+    "shortName": "Dashuibo Airport",
+    "countryCode": "CN",
+    "countryName": "China",
+    "currencyCode": "CNY",
+    "macCode": null,
+    "latitude": "371114N",
+    "longitude": "1221344E"
+}, {
+    "code": "XCH",
+    "name": "Christmas Island",
+    "shortName": "Christmas Island Airport",
+    "countryCode": "CX",
+    "countryName": "Christmas Island",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "102702S",
+    "longitude": "1054125E"
+}, {
+    "code": "YIA",
+    "name": "Yogyakarta",
+    "shortName": "Yogyakarta International Airport",
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "currencyCode": "IDR",
+    "macCode": "JOG",
+    "latitude": "075436S",
+    "longitude": "1100412E"
+}, {
+    "code": "YVR",
+    "name": "Vancouver International Airport",
+    "shortName": "Vancouver International Airport",
+    "countryCode": "CA",
+    "countryName": "Canada",
+    "currencyCode": "CAD",
+    "macCode": null,
+    "latitude": "491114N",
+    "longitude": "1231107W"
+}, {
+    "code": "ZNE",
+    "name": "Newman",
+    "shortName": "Newman Airport",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "currencyCode": "AUD",
+    "macCode": null,
+    "latitude": "232504S",
+    "longitude": "1194810E"
+}, {
+    "code": "ZTH",
+    "name": "Dionsios Salomos Airport",
+    "shortName": "Dionsios Salomos Airport",
+    "countryCode": "GR",
+    "countryName": "Greece",
+    "currencyCode": "EUR",
+    "macCode": null,
+    "latitude": "374503N",
+    "longitude": "0205303E"
+}, {
+    "code": "TYO",
+    "name": "Tokyo (All Airports)",
+    "shortName": "Tokyo (All Airports)",
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "currencyCode": "JPY",
+    "macCode": "TYO",
+    "latitude": "353308N",
+    "longitude": "1394647E"
+}]

@@ -1,0 +1,441 @@
+{
+    "currencyCode": "EUR",
+    "isValidPromoteCode": false,
+    "trips": [
+        {
+            "isMacStation": false,
+            "macStationOrigin": null,
+            "macStationDestination": null,
+            "origin": "VIE",
+            "destination": "SIN",
+            "departureDate": "2026-01-13T00:00:00",
+            "journeys": [
+                {
+                    "journeyKey": "VFJ_ICA2MX4gfn5WSUV_MDEvMTMvMjAyNiAwOTozNX5TSU5_MDEvMTQvMjAyNiAwMzo0MH5_",
+                    "flightType": 1,
+                    "stops": 0,
+                    "designator": {
+                        "origin": "VIE",
+                        "destination": "SIN",
+                        "departure": "2026-01-13T09:35:00",
+                        "arrival": "2026-01-14T03:40:00"
+                    },
+                    "fares": [
+                        {
+                            "fareAvailabilityKey": "MH5Cfn5UUn5CMUNDT0F_RVlDT35UUlRSfjN_MX5OU0lOVklFMDAzMDAxMH5YITA-",
+                            "isSumOfSector": false,
+                            "details": [
+                                {
+                                    "availableCount": 2,
+                                    "reference": "MH5Cfn5UUn5CMUNDT0F_RVlDT35UUlRSfjN_MX5OU0lOVklFMDAzMDAxMH5Y",
+                                    "ssrReferences": [
+                                        "RkxYTyEw",
+                                        "RkxYTSEx",
+                                        "RkxYUiEy",
+                                        "QkcyMCExMQ--",
+                                        "QkcyNSExMA--",
+                                        "QkczMCE5",
+                                        "U0VBVCE2",
+                                        "U0FCITc-"
+                                    ],
+                                    "bundleReferences": [
+                                        "MUJCRyEw",
+                                        "M0JTRiEx",
+                                        "MkJHUyEy",
+                                        "MkJHTSEz"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "fareAvailabilityKey": "MH5afn5UUn5aMENDT0F_U1BDT35UUlRSfjJ_MX5OU0lOVklFMDAyMDAxMH5YITE-",
+                            "isSumOfSector": false,
+                            "details": [
+                                {
+                                    "availableCount": 2,
+                                    "reference": "MH5afn5UUn5aMENDT0F_U1BDT35UUlRSfjJ_MX5OU0lOVklFMDAyMDAxMH5Y",
+                                    "ssrReferences": [
+                                        "RkxYTyEw",
+                                        "RkxYTSEx",
+                                        "RkxYUiEy",
+                                        "QkcyMCEz",
+                                        "QkcyNSE0",
+                                        "QkczMCE1",
+                                        "U0VBVCE2",
+                                        "U0FCITg-"
+                                    ],
+                                    "bundleReferences": []
+                                }
+                            ]
+                        }
+                    ],
+                    "segments": [
+                        {
+                            "segmentKey": "VFJ_ICA2MX4gfn5WSUV_MDEvMTMvMjAyNiAwOTozNX5TSU5_MDEvMTQvMjAyNiAwMzo0MH5_",
+                            "identifier": {
+                                "identifier": "61",
+                                "carrierCode": "TR",
+                                "opSuffix": null
+                            },
+                            "designator": {
+                                "origin": "VIE",
+                                "destination": "SIN",
+                                "departure": "2026-01-13T09:35:00",
+                                "arrival": "2026-01-14T03:40:00"
+                            },
+                            "legs": [
+                                {
+                                    "legKey": "NjM5MDM4OTM3MDAwMDAwMDAwIVRSITYxISAhVklFIVNJTiE3NjI3Njk5",
+                                    "designator": {
+                                        "origin": "VIE",
+                                        "destination": "SIN",
+                                        "departure": "2026-01-13T09:35:00",
+                                        "arrival": "2026-01-14T03:40:00"
+                                    },
+                                    "legInfo": {
+                                        "departureTimeUtc": "2026-01-13T08:35:00Z",
+                                        "arrivalTimeUtc": "2026-01-13T19:40:00Z",
+                                        "equipmentType": "78B",
+                                        "equipmentTypeSuffix": "TRE",
+                                        "subjectToGovtApproval": false,
+                                        "isULH": true
+                                    },
+                                    "operationsInfo": {
+                                        "departureTimes": {
+                                            "scheduled": null,
+                                            "estimated": null
+                                        },
+                                        "departureTimesUTC": {
+                                            "scheduledUTC": null,
+                                            "estimatedUTC": null
+                                        },
+                                        "standardArrivalTime": null,
+                                        "estimatedArrivalTime": null,
+                                        "standardArrivalTimeUTC": null,
+                                        "estimatedArrivalTimeUTC": null
+                                    }
+                                }
+                            ],
+                            "isVTLFlight": false
+                        }
+                    ]
+                }
+            ],
+            "isDiscountPromo": false
+        }
+    ],
+    "faresAvailable": [
+        {
+            "fareAvailabilityKey": "MH5Cfn5UUn5CMUNDT0F_RVlDT35UUlRSfjN_MX5OU0lOVklFMDAzMDAxMH5YITA-",
+            "totals": {
+                "fareTotal": 456.97,
+                "publishedTotal": 412,
+                "discountedTotal": 412,
+                "isDiscount": false,
+                "initialFareTotal": 456.97
+            },
+            "fares": [
+                {
+                    "productClass": "E1",
+                    "passengerFares": [
+                        {
+                            "fareAmount": 456.97,
+                            "publishedFare": 412,
+                            "passengerType": "ADT",
+                            "milesFare": null,
+                            "serviceCharges": [
+                                {
+                                    "amount": 412,
+                                    "code": null,
+                                    "type": 0
+                                },
+                                {
+                                    "amount": 44.97,
+                                    "code": null,
+                                    "type": 5
+                                }
+                            ]
+                        }
+                    ],
+                    "fareTags": [],
+                    "fareBasisCode": "B1CCOA",
+                    "fareReference": "MH5Cfn5UUn5CMUNDT0F_RVlDT35UUlRSfjN_MX5OU0lOVklFMDAzMDAxMH5Y"
+                }
+            ]
+        },
+        {
+            "fareAvailabilityKey": "MH5afn5UUn5aMENDT0F_U1BDT35UUlRSfjJ_MX5OU0lOVklFMDAyMDAxMH5YITE-",
+            "totals": {
+                "fareTotal": 1394.97,
+                "publishedTotal": 1350,
+                "discountedTotal": 1350,
+                "isDiscount": false,
+                "initialFareTotal": 1394.97
+            },
+            "fares": [
+                {
+                    "productClass": "J",
+                    "passengerFares": [
+                        {
+                            "fareAmount": 1394.97,
+                            "publishedFare": 1350,
+                            "passengerType": "ADT",
+                            "milesFare": null,
+                            "serviceCharges": [
+                                {
+                                    "amount": 1350,
+                                    "code": null,
+                                    "type": 0
+                                },
+                                {
+                                    "amount": 44.97,
+                                    "code": null,
+                                    "type": 5
+                                }
+                            ]
+                        }
+                    ],
+                    "fareTags": [],
+                    "fareBasisCode": "Z0CCOA",
+                    "fareReference": "MH5afn5UUn5aMENDT0F_U1BDT35UUlRSfjJ_MX5OU0lOVklFMDAyMDAxMH5Y"
+                }
+            ]
+        }
+    ],
+    "bundleOffers": [
+        {
+            "bundleCode": "1BBG",
+            "bundleKey": "MUJCRyEw",
+            "bundlePrices": [
+                {
+                    "totalPrice": 46,
+                    "taxTotal": 0,
+                    "passengerType": "ADT"
+                }
+            ],
+            "bundleSsrPrices": [
+                {
+                    "bundleSsrPrice": 46,
+                    "taxTotal": 0,
+                    "ssrCode": "BG20"
+                }
+            ]
+        },
+        {
+            "bundleCode": "3BSF",
+            "bundleKey": "M0JTRiEx",
+            "bundlePrices": [
+                {
+                    "totalPrice": 91.21,
+                    "taxTotal": 0,
+                    "passengerType": "ADT"
+                }
+            ],
+            "bundleSsrPrices": [
+                {
+                    "bundleSsrPrice": 44,
+                    "taxTotal": 0,
+                    "ssrCode": "BG20"
+                },
+                {
+                    "bundleSsrPrice": 20.3,
+                    "taxTotal": 0,
+                    "ssrCode": "SEAT"
+                },
+                {
+                    "bundleSsrPrice": 26.91,
+                    "taxTotal": 0,
+                    "ssrCode": "FLXM"
+                }
+            ]
+        },
+        {
+            "bundleCode": "2BGS",
+            "bundleKey": "MkJHUyEy",
+            "bundlePrices": [
+                {
+                    "totalPrice": 64.3,
+                    "taxTotal": 0,
+                    "passengerType": "ADT"
+                }
+            ],
+            "bundleSsrPrices": [
+                {
+                    "bundleSsrPrice": 44,
+                    "taxTotal": 0,
+                    "ssrCode": "BG20"
+                },
+                {
+                    "bundleSsrPrice": 20.3,
+                    "taxTotal": 0,
+                    "ssrCode": "SEAT"
+                }
+            ]
+        },
+        {
+            "bundleCode": "2BGM",
+            "bundleKey": "MkJHTSEz",
+            "bundlePrices": [
+                {
+                    "totalPrice": 59,
+                    "taxTotal": 0,
+                    "passengerType": "ADT"
+                }
+            ],
+            "bundleSsrPrices": [
+                {
+                    "bundleSsrPrice": 46,
+                    "taxTotal": 0,
+                    "ssrCode": "BG20"
+                }
+            ]
+        }
+    ],
+    "includedSsrs": [
+        {
+            "ssrCode": "FLXO",
+            "reference": "RkxYTyEw",
+            "priceVariations": [
+                {
+                    "basePrice": 24,
+                    "taxTotal": 0,
+                    "passengerType": "ADT",
+                    "programLevel": null
+                }
+            ]
+        },
+        {
+            "ssrCode": "FLXM",
+            "reference": "RkxYTSEx",
+            "priceVariations": [
+                {
+                    "basePrice": 28,
+                    "taxTotal": 0,
+                    "passengerType": "ADT",
+                    "programLevel": null
+                }
+            ]
+        },
+        {
+            "ssrCode": "FLXR",
+            "reference": "RkxYUiEy",
+            "priceVariations": [
+                {
+                    "basePrice": 0,
+                    "taxTotal": 0,
+                    "passengerType": "ADT",
+                    "programLevel": null
+                }
+            ]
+        },
+        {
+            "ssrCode": "BG20",
+            "reference": "QkcyMCEz",
+            "priceVariations": [
+                {
+                    "basePrice": 0,
+                    "taxTotal": 0,
+                    "passengerType": "ADT",
+                    "programLevel": null
+                }
+            ]
+        },
+        {
+            "ssrCode": "BG25",
+            "reference": "QkcyNSE0",
+            "priceVariations": [
+                {
+                    "basePrice": 0,
+                    "taxTotal": 0,
+                    "passengerType": "ADT",
+                    "programLevel": null
+                }
+            ]
+        },
+        {
+            "ssrCode": "BG30",
+            "reference": "QkczMCE1",
+            "priceVariations": [
+                {
+                    "basePrice": 0,
+                    "taxTotal": 0,
+                    "passengerType": "ADT",
+                    "programLevel": null
+                }
+            ]
+        },
+        {
+            "ssrCode": "SEAT",
+            "reference": "U0VBVCE2",
+            "priceVariations": [
+                {
+                    "basePrice": 21.12,
+                    "taxTotal": 0,
+                    "passengerType": "ADT",
+                    "programLevel": null
+                }
+            ]
+        },
+        {
+            "ssrCode": "SAB",
+            "reference": "U0FCITc-",
+            "priceVariations": [
+                {
+                    "basePrice": 4,
+                    "taxTotal": 0,
+                    "passengerType": "ADT",
+                    "programLevel": null
+                }
+            ]
+        },
+        {
+            "ssrCode": "SAB",
+            "reference": "U0FCITg-",
+            "priceVariations": [
+                {
+                    "basePrice": 0,
+                    "taxTotal": 0,
+                    "passengerType": "ADT",
+                    "programLevel": null
+                }
+            ]
+        },
+        {
+            "ssrCode": "BG30",
+            "reference": "QkczMCE5",
+            "priceVariations": [
+                {
+                    "basePrice": 65,
+                    "taxTotal": 0,
+                    "passengerType": "ADT",
+                    "programLevel": null
+                }
+            ]
+        },
+        {
+            "ssrCode": "BG25",
+            "reference": "QkcyNSExMA--",
+            "priceVariations": [
+                {
+                    "basePrice": 55,
+                    "taxTotal": 0,
+                    "passengerType": "ADT",
+                    "programLevel": null
+                }
+            ]
+        },
+        {
+            "ssrCode": "BG20",
+            "reference": "QkcyMCExMQ--",
+            "priceVariations": [
+                {
+                    "basePrice": 46,
+                    "taxTotal": 0,
+                    "passengerType": "ADT",
+                    "programLevel": null
+                }
+            ]
+        }
+    ],
+    "error": null
+}

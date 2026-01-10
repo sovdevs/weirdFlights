@@ -305,21 +305,16 @@ def main():
         print(f"  Most expensive: £{max(prices):.0f}")
         print(f"  Average: £{sum(prices) / len(prices):.0f}")
 
-        # Save to dated file and current flights.json
+        # Save to dated file (merge script will combine with other sources)
         today = datetime.now().strftime("%Y-%m-%d")
         dated_filename = f"norse_flights_{today}.json"
-        current_filename = "flights.json"
 
         flights_data = [asdict(fl) for fl in flights]
 
         with open(dated_filename, "w") as f:
             json.dump(flights_data, f, indent=2)
         print(f"\n✓ Saved to {dated_filename}")
-
-        # Also save as flights.json for the frontend to use
-        with open(current_filename, "w") as f:
-            json.dump(flights_data, f, indent=2)
-        print(f"✓ Saved to {current_filename}")
+        print(f"  (Run 'python merge_flights.py' to combine with other airlines)")
         print("=" * 60)
     else:
         print("\n⚠ No flights found")

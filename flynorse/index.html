@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weird Flights - Budget Flight Map</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #fff;
+        }
+        
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            width: 380px;
+            background: #111;
+            border-right: 1px solid #333;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        .header {
+            padding: 20px;
+            border-bottom: 1px solid #333;
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .header p {
+            color: #888;
+            font-size: 14px;
+        }
+        
+        /* Filters */
+        .filters {
+            padding: 16px 20px;
+            border-bottom: 1px solid #333;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .filter-row {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .filter-group {
+            flex: 1;
+        }
+        
+        .filter-group label {
+            display: block;
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #666;
+            margin-bottom: 4px;
+            letter-spacing: 0.5px;
+        }
+        
+        select, input {
+            width: 100%;
+            padding: 10px 12px;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 14px;
+        }
+        
+        select:focus, input:focus {
+            outline: none;
+            border-color: #4a9eff;
+        }
+        
+        /* Results */
+        .results {
+            flex: 1;
+            overflow-y: auto;
+            padding: 12px;
+        }
+        
+        .results-header {
+            padding: 8px 8px 16px;
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .route-card {
+            background: #1a1a1a;
+            border: 1px solid #2a2a2a;
+            border-radius: 8px;
+            padding: 14px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .route-card:hover {
+            border-color: #4a9eff;
+            background: #1f1f1f;
+        }
+        
+        .route-card.selected {
+            border-color: #4a9eff;
+            background: #1a2a3a;
+        }
+
+        .route-card.sale-fare {
+            border-color: #ffa500;
+            background: #2a1f0a;
+        }
+
+        .route-card.sale-fare .route-price {
+            color: #ffa500;
+            text-shadow: 0 0 8px rgba(255, 165, 0, 0.5);
+        }
+
+        .sale-badge {
+            background: #ffa500;
+            color: #000;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-left: 6px;
+        }
+        
+        .route-airports {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+        
+        .airport-code {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .route-arrow {
+            color: #666;
+        }
+        
+        .route-price {
+            font-size: 24px;
+            font-weight: 700;
+            color: #4aff91;
+        }
+        
+        .route-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #666;
+            margin-top: 8px;
+        }
+        
+        .airline-badge {
+            background: #2a2a2a;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            text-transform: uppercase;
+        }
+        
+        /* Map */
+        .map-container {
+            flex: 1;
+        }
+        
+        #map {
+            width: 100%;
+            height: 100%;
+            background: #0a0a0a;
+        }
+        
+        /* Custom Leaflet styles */
+        .leaflet-container {
+            background: #0a0a0a;
+        }
+        
+        .airport-marker {
+            background: #4a9eff;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            width: 12px;
+            height: 12px;
+        }
+        
+        .leaflet-popup-content-wrapper {
+            background: #1a1a1a;
+            color: #fff;
+            border-radius: 8px;
+        }
+        
+        .leaflet-popup-tip {
+            background: #1a1a1a;
+        }
+        
+        .popup-content h3 {
+            margin-bottom: 8px;
+        }
+        
+        .popup-content .price {
+            font-size: 20px;
+            color: #4aff91;
+            font-weight: 700;
+        }
+        
+        .popup-content a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 6px 12px;
+            background: #4a9eff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        
+        /* Loading state */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="header">
+                <h1>✈️ Weird Flights</h1>
+                <p>Budget-first flight search</p>
+            </div>
+            
+            <div class="filters">
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label>Route Direction</label>
+                        <select id="routeDirection">
+                            <option value="">All Routes</option>
+                            <option value="europe-north_america">Europe → N America (Long Haul)</option>
+                            <option value="north_america-europe">N America → Europe (Long Haul)</option>
+                            <option value="europe-se_asia">Europe → SE Asia (Long Haul)</option>
+                            <option value="se_asia-europe">SE Asia → Europe (Long Haul)</option>
+                            <option value="se_asia-se_asia">SE Asia → SE Asia (Short Haul)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label>Passenger Type</label>
+                        <select id="passengerType">
+                            <option value="1ad">1 Adult</option>
+                            <option value="1ad1ch">Adult + Child</option>
+                            <option value="1ad2ch">Adult + 2 Children</option>
+                            <option value="2ad">2 Adults</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label>Currency</label>
+                        <select id="currency">
+                            <option value="GBP">GBP (£)</option>
+                            <option value="SGD">SGD ($)</option>
+                            <option value="USD">USD ($)</option>
+                            <option value="EUR">EUR (€)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label>Max Price (<span id="currencySymbol">£</span>)</label>
+                        <input type="number" id="maxPrice" placeholder="e.g. 500">
+                    </div>
+                    <div class="filter-group">
+                        <label>Max Price/km (<span id="currencySymbolPerkm">£</span>)</label>
+                        <input type="number" id="maxPricePerKm" placeholder="e.g. 1.5" step="0.1">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="results">
+                <div class="results-header">
+                    <span id="resultsCount">0</span> routes found
+                </div>
+                <div id="routesList">
+                    <div class="loading">Loading routes...</div>
+                </div>
+            </div>
+        </aside>
+        
+        <main class="map-container">
+            <div id="map"></div>
+        </main>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <script>
+        // Airport coordinates and region mapping
+        const AIRPORT_DATA = {
+            'LGW': { name: 'London Gatwick', lat: 51.1537, lon: -0.1821, region: 'europe' },
+            'BKK': { name: 'Bangkok Suvarnabhumi', lat: 13.6900, lon: 100.7501, region: 'se_asia' },
+            'JFK': { name: 'New York JFK', lat: 40.6413, lon: -73.7781, region: 'north_america' },
+            'LAX': { name: 'Los Angeles', lat: 33.9425, lon: -118.4081, region: 'north_america' },
+            'LHR': { name: 'London Heathrow', lat: 51.4700, lon: -0.4543, region: 'europe' },
+            'CDG': { name: 'Paris Charles de Gaulle', lat: 49.0097, lon: 2.5479, region: 'europe' },
+            'AMS': { name: 'Amsterdam', lat: 52.3086, lon: 4.7639, region: 'europe' },
+            'DXB': { name: 'Dubai', lat: 25.2528, lon: 55.3644, region: 'se_asia' },
+            'SIN': { name: 'Singapore', lat: 1.3521, lon: 103.8198, region: 'se_asia' },
+            'HND': { name: 'Tokyo Haneda', lat: 35.5494, lon: 139.7798, region: 'se_asia' },
+            'PEK': { name: 'Beijing Capital', lat: 40.0799, lon: 116.5850, region: 'se_asia' },
+            'HKG': { name: 'Hong Kong', lat: 22.3080, lon: 113.9185, region: 'se_asia' },
+            'ICN': { name: 'Seoul Incheon', lat: 37.4602, lon: 126.4407, region: 'se_asia' },
+            'OSL': { name: 'Oslo', lat: 60.1939, lon: 11.1004, region: 'europe' },
+            'BER': { name: 'Berlin', lat: 52.3667, lon: 13.5033, region: 'europe' },
+            'MAN': { name: 'Manchester', lat: 53.3639, lon: -2.2705, region: 'europe' },
+            'MIA': { name: 'Miami', lat: 25.7959, lon: -80.2870, region: 'north_america' },
+            'OAK': { name: 'Oakland', lat: 37.7213, lon: -122.2207, region: 'north_america' },
+            'FLL': { name: 'Fort Lauderdale', lat: 26.0726, lon: -80.1527, region: 'north_america' },
+            'CGK': { name: 'Jakarta Soekarno-Hatta', lat: -6.1256, lon: 106.6595, region: 'se_asia' },
+            'DPS': { name: 'Bali Denpasar', lat: -8.7480, lon: 115.2067, region: 'se_asia' },
+            'HAN': { name: 'Hanoi Noi Bai', lat: 21.2215, lon: 105.8017, region: 'se_asia' },
+            'KUL': { name: 'Kuala Lumpur', lat: 2.7253, lon: 101.7103, region: 'se_asia' },
+            'SGN': { name: 'Ho Chi Minh City', lat: 10.8191, lon: 106.6513, region: 'se_asia' },
+            'FRA': { name: 'Frankfurt', lat: 50.0379, lon: 8.5622, region: 'europe' },
+            'ZRH': { name: 'Zurich', lat: 47.4647, lon: 8.5492, region: 'europe' },
+            'EDI': { name: 'Edinburgh', lat: 55.9500, lon: -3.3724, region: 'europe' },
+            'IST': { name: 'Istanbul', lat: 41.2619, lon: 28.7484, region: 'europe' },
+            'OTP': { name: 'Bucharest', lat: 44.5720, lon: 26.0845, region: 'europe' }
+        };
+
+        // Currency conversion rates (base: GBP)
+        const CURRENCY_RATES = {
+            'GBP': 1.0,
+            'SGD': 1.51,      // 1 GBP = 1.51 SGD
+            'USD': 1.27,      // 1 GBP = 1.27 USD
+            'EUR': 1.17       // 1 GBP = 1.17 EUR
+        };
+
+        const CURRENCY_SYMBOLS = {
+            'GBP': '£',
+            'SGD': '$',
+            'USD': '$',
+            'EUR': '€'
+        };
+
+        // Config
+        const API_BASE = 'http://localhost:8000';
+
+        // State
+        let map;
+        let routeLines = [];
+        let airportMarkers = {};
+        let selectedRoute = null;
+        let allRoutes = [];
+        let selectedCurrency = localStorage.getItem('selectedCurrency') || 'GBP';
+
+        // Initialize map
+        function initMap() {
+            map = L.map('map', {
+                center: [30, 20],
+                zoom: 2,
+                minZoom: 2,
+                maxZoom: 8,
+                worldCopyJump: true
+            });
+
+            // Dark tile layer
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+                subdomains: 'abcd',
+                maxZoom: 19
+            }).addTo(map);
+        }
+
+        // Calculate total price based on passenger type
+        function calculateTotalPrice(basePrice, passengerType) {
+            const childPrice = 0.6;
+            const adultPrice = 1;
+
+            switch(passengerType) {
+                case '1ad':
+                    return basePrice * adultPrice;
+                case '1ad1ch':
+                    return basePrice * (adultPrice + childPrice);
+                case '1ad2ch':
+                    return basePrice * (adultPrice + 2 * childPrice);
+                case '2ad':
+                    return basePrice * (2 * adultPrice);
+                default:
+                    return basePrice;
+            }
+        }
+
+        // Calculate distance between two points (Haversine formula)
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+            const R = 6371; // Earth's radius in km
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                      Math.sin(dLon/2) * Math.sin(dLon/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            return R * c;
+        }
+
+        // Convert price to selected currency
+        function convertPrice(flight, targetCurrency) {
+            let priceInGBP;
+
+            // Convert the original price to GBP first
+            if (flight.currency === 'GBP') {
+                priceInGBP = flight.price;
+            } else if (flight.currency === 'SGD') {
+                // For Scoot flights: use the pre-calculated price fields if available
+                if (targetCurrency === 'SGD') {
+                    return flight.price;
+                } else if (targetCurrency === 'USD' && flight.price_usd) {
+                    return flight.price_usd;
+                } else if (targetCurrency === 'EUR' && flight.price_eur) {
+                    return flight.price_eur;
+                } else if (targetCurrency === 'GBP' && flight.price_gbp) {
+                    return flight.price_gbp;
+                }
+                // Fallback: SGD to GBP (1 SGD ≈ 0.66 GBP)
+                priceInGBP = flight.price / 1.51;
+            } else {
+                priceInGBP = flight.price;
+            }
+
+            // Convert from GBP to target currency
+            return Math.round(priceInGBP * CURRENCY_RATES[targetCurrency] * 100) / 100;
+        }
+
+        // Fetch routes from API
+        async function fetchRoutes(filters = {}) {
+            try {
+                // Add cache-busting parameter to force fresh data
+                const response = await fetch('flights.json?' + new Date().getTime());
+                const data = await response.json();
+
+                // Data is a direct array, add airport info
+                const routes = data.map(route => {
+                    const originLat = AIRPORT_DATA[route.origin]?.lat;
+                    const originLon = AIRPORT_DATA[route.origin]?.lon;
+                    const destLat = AIRPORT_DATA[route.destination]?.lat;
+                    const destLon = AIRPORT_DATA[route.destination]?.lon;
+
+                    let distance = 0;
+                    if (originLat && originLon && destLat && destLon) {
+                        distance = calculateDistance(originLat, originLon, destLat, destLon);
+                    }
+
+                    const passengerType = filters.passengerType || '1ad';
+                    const baseTotalPrice = calculateTotalPrice(route.price, passengerType);
+
+                    // Convert to selected currency
+                    const convertedPrice = convertPrice(route, selectedCurrency);
+                    const totalPrice = calculateTotalPrice(convertedPrice, passengerType);
+                    const pricePerKm = distance > 0 ? totalPrice / distance : 0;
+
+                    return {
+                        ...route,
+                        basePrice: route.price,
+                        baseTotalPrice: baseTotalPrice,
+                        lowest_price: totalPrice,
+                        totalPrice: totalPrice,
+                        distance: distance,
+                        pricePerKm: pricePerKm,
+                        displayCurrency: selectedCurrency,
+                        origin_name: AIRPORT_DATA[route.origin]?.name || route.origin,
+                        destination_name: AIRPORT_DATA[route.destination]?.name || route.destination,
+                        origin_lat: originLat,
+                        origin_lon: originLon,
+                        destination_lat: destLat,
+                        destination_lon: destLon
+                    };
+                });
+
+                // Apply filters
+                return routes.filter(route => {
+                    // Route direction filter
+                    if (filters.routeDirection) {
+                        const [originRegion, destRegion] = filters.routeDirection.split('-');
+                        const routeOriginRegion = AIRPORT_DATA[route.origin]?.region;
+                        const routeDestRegion = AIRPORT_DATA[route.destination]?.region;
+
+                        if (routeOriginRegion !== originRegion || routeDestRegion !== destRegion) {
+                            return false;
+                        }
+                    }
+
+                    // Price filters
+                    if (filters.maxPrice && route.totalPrice > parseFloat(filters.maxPrice)) return false;
+                    if (filters.maxPricePerKm && route.pricePerKm > parseFloat(filters.maxPricePerKm)) return false;
+                    return true;
+                });
+            } catch (error) {
+                console.error('Error fetching routes:', error);
+                return [];
+            }
+        }
+
+        // Fetch airports
+        async function fetchAirports() {
+            try {
+                const response = await fetch(`${API_BASE}/api/airports`);
+                const data = await response.json();
+                return data.airports || [];
+            } catch (error) {
+                console.error('Error fetching airports:', error);
+                return [];
+            }
+        }
+        
+        // Clear map overlays
+        function clearMap() {
+            routeLines.forEach(line => map.removeLayer(line));
+            routeLines = [];
+            Object.values(airportMarkers).forEach(marker => map.removeLayer(marker));
+            airportMarkers = {};
+        }
+        
+        // Draw routes on map
+        function drawRoutes(routes) {
+            clearMap();
+            
+            const airportsInUse = new Set();
+            
+            routes.forEach(route => {
+                if (!route.origin_lat || !route.destination_lat) return;
+                
+                airportsInUse.add(route.origin);
+                airportsInUse.add(route.destination);
+                
+                // Calculate color based on price (green = cheap, red = expensive)
+                const priceRatio = Math.min(route.lowest_price / 1000, 1);
+                const hue = 120 - (priceRatio * 120); // 120 = green, 0 = red
+                const color = `hsl(${hue}, 70%, 50%)`;
+                
+                // Draw route line
+                const line = L.polyline([
+                    [route.origin_lat, route.origin_lon],
+                    [route.destination_lat, route.destination_lon]
+                ], {
+                    color: color,
+                    weight: 2,
+                    opacity: 0.6,
+                    dashArray: '5, 10'
+                }).addTo(map);
+                
+                // Popup content with selected currency
+                const currencySymbol = CURRENCY_SYMBOLS[selectedCurrency] || '£';
+                line.bindPopup(`
+                    <div class="popup-content">
+                        <h3>${route.origin} → ${route.destination} ${route.is_sale_fare ? '🔥' : ''}</h3>
+                        <div>${route.origin_name} → ${route.destination_name}</div>
+                        <div style="margin-top: 8px;">
+                            <div style="color: #888; font-size: 12px;">Base Price (Adult): ${currencySymbol}${route.totalPrice.toFixed(2)}</div>
+                            <div class="price">Total (${selectedCurrency}): ${currencySymbol}${route.totalPrice.toFixed(2)}</div>
+                            ${route.is_sale_fare ? '<div style="color: #ffa500; font-weight: 600; margin-top: 4px;">⭐ SALE FARE</div>' : ''}
+                        </div>
+                        <div style="margin-top: 5px; color: #888;">${route.departure_date}</div>
+                        <div style="margin-top: 5px; color: #888;">${route.distance.toFixed(0)}km | ${currencySymbol}${route.pricePerKm.toFixed(2)}/km</div>
+                        <div style="margin-top: 5px; color: #888;">${route.airline.toUpperCase()}</div>
+                        ${route.booking_url ? `<a href="${route.booking_url}" target="_blank">Book Flight</a>` : ''}
+                    </div>
+                `);
+                
+                line.on('mouseover', function() {
+                    this.setStyle({ weight: 4, opacity: 1 });
+                });
+                line.on('mouseout', function() {
+                    this.setStyle({ weight: 2, opacity: 0.6 });
+                });
+                
+                routeLines.push(line);
+            });
+            
+            // Add airport markers
+            routes.forEach(route => {
+                if (!airportMarkers[route.origin] && route.origin_lat) {
+                    const marker = L.circleMarker([route.origin_lat, route.origin_lon], {
+                        radius: 6,
+                        fillColor: '#4a9eff',
+                        color: '#fff',
+                        weight: 2,
+                        opacity: 1,
+                        fillOpacity: 0.8
+                    }).addTo(map);
+                    marker.bindTooltip(route.origin_name || route.origin);
+                    airportMarkers[route.origin] = marker;
+                }
+                
+                if (!airportMarkers[route.destination] && route.destination_lat) {
+                    const marker = L.circleMarker([route.destination_lat, route.destination_lon], {
+                        radius: 6,
+                        fillColor: '#4a9eff',
+                        color: '#fff',
+                        weight: 2,
+                        opacity: 1,
+                        fillOpacity: 0.8
+                    }).addTo(map);
+                    marker.bindTooltip(route.destination_name || route.destination);
+                    airportMarkers[route.destination] = marker;
+                }
+            });
+        }
+        
+        // Render route list
+        function renderRouteList(routes) {
+            const container = document.getElementById('routesList');
+            document.getElementById('resultsCount').textContent = routes.length;
+
+            if (routes.length === 0) {
+                container.innerHTML = '<div class="no-results">No routes found</div>';
+                return;
+            }
+
+            const currencySymbol = CURRENCY_SYMBOLS[selectedCurrency] || '£';
+            container.innerHTML = routes.map((route, index) => `
+                <div class="route-card ${route.is_sale_fare ? 'sale-fare' : ''}" data-index="${index}">
+                    <div class="route-airports">
+                        <span class="airport-code">${route.origin}</span>
+                        <span class="route-arrow">→</span>
+                        <span class="airport-code">${route.destination}</span>
+                        <span class="route-price">${currencySymbol}${route.totalPrice.toFixed(2)}</span>
+                    </div>
+                    <div class="route-meta">
+                        <span>${route.origin_name || route.origin} → ${route.destination_name || route.destination}</span>
+                        <span class="airline-badge">${route.airline}</span>
+                        ${route.is_sale_fare ? '<span class="sale-badge">🔥 Sale</span>' : ''}
+                    </div>
+                    <div style="margin-top: 5px; color: #888;">${route.distance.toFixed(0)}km | ${currencySymbol}${route.pricePerKm.toFixed(2)}/km</div>
+                </div>
+            `).join('');
+
+            // Add click handlers
+            container.querySelectorAll('.route-card').forEach((card) => {
+                card.addEventListener('click', () => {
+                    const index = parseInt(card.dataset.index);
+                    const route = routes[index];
+                    if (route.origin_lat && route.destination_lat) {
+                        map.fitBounds([
+                            [route.origin_lat, route.origin_lon],
+                            [route.destination_lat, route.destination_lon]
+                        ], { padding: [50, 50] });
+
+                        // Highlight line
+                        setTimeout(() => {
+                            routeLines[index]?.openPopup();
+                        }, 100);
+                    }
+
+                    // Update selection UI
+                    container.querySelectorAll('.route-card').forEach(c => c.classList.remove('selected'));
+                    card.classList.add('selected');
+                });
+            });
+        }
+        
+        // Load and display data
+        async function loadData() {
+            const filters = {
+                routeDirection: document.getElementById('routeDirection').value,
+                passengerType: document.getElementById('passengerType').value,
+                maxPrice: document.getElementById('maxPrice').value,
+                maxPricePerKm: document.getElementById('maxPricePerKm').value
+            };
+
+            let routes = await fetchRoutes(filters);
+            // Sort by total price (low to high)
+            routes = routes.sort((a, b) => a.totalPrice - b.totalPrice);
+            allRoutes = routes;
+            renderRouteList(routes);
+            drawRoutes(routes);
+        }
+        
+        // Event listeners
+        document.getElementById('routeDirection').addEventListener('change', loadData);
+        document.getElementById('passengerType').addEventListener('change', loadData);
+        document.getElementById('maxPrice').addEventListener('input', debounce(loadData, 300));
+        document.getElementById('maxPricePerKm').addEventListener('input', debounce(loadData, 300));
+
+        // Currency selector
+        document.getElementById('currency').addEventListener('change', (e) => {
+            selectedCurrency = e.target.value;
+            localStorage.setItem('selectedCurrency', selectedCurrency);
+
+            // Update currency labels
+            const currencySymbol = CURRENCY_SYMBOLS[selectedCurrency];
+            document.getElementById('currencySymbol').textContent = currencySymbol;
+            document.getElementById('currencySymbolPerkm').textContent = currencySymbol;
+
+            // Reload data with new currency
+            loadData();
+        });
+
+        // Set initial currency display
+        document.getElementById('currency').value = selectedCurrency;
+        const initCurrencySymbol = CURRENCY_SYMBOLS[selectedCurrency];
+        document.getElementById('currencySymbol').textContent = initCurrencySymbol;
+        document.getElementById('currencySymbolPerkm').textContent = initCurrencySymbol;
+        
+        function debounce(func, wait) {
+            let timeout;
+            return function(...args) {
+                clearTimeout(timeout);
+                timeout = setTimeout(() => func.apply(this, args), wait);
+            };
+        }
+        
+        // Initialize
+        initMap();
+        loadData();
+    </script>
+</body>
+</html>

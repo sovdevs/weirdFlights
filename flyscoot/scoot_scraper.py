@@ -38,7 +38,7 @@ class ScootScraper:
         "GBP": 0.57,  # 1 SGD = ~0.57 GBP
     }
 
-    # SE Asia regional routes (Scoot is a regional carrier, not long-haul)
+    # Scoot routes: SE Asia regional + international long-haul
     ROUTES = [
         # Singapore (main hub) <-> Regional SE Asia
         ("SIN", "BKK"), ("BKK", "SIN"),
@@ -61,6 +61,14 @@ class ScootScraper:
         ("CGK", "HAN"), ("HAN", "CGK"),
         # Denpasar <-> Regional
         ("DPS", "HAN"), ("HAN", "DPS"),
+        # Europe <-> Singapore (long-haul)
+        ("ATH", "SIN"), ("SIN", "ATH"),
+        ("BER", "SIN"), ("SIN", "BER"),
+        # Australia <-> Singapore (long-haul)
+        ("MEL", "SIN"), ("SIN", "MEL"),
+        ("SYD", "SIN"), ("SIN", "SYD"),
+        ("PER", "SIN"), ("SIN", "PER"),
+        ("ADL", "SIN"), ("SIN", "ADL"),
     ]
 
     def __init__(self):
@@ -100,7 +108,7 @@ class ScootScraper:
         Scoot uses a JWT token that may expire.
         If it expires, fetch fresh from scoot booking page (DevTools → Network → Authorization header).
         """
-        return "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlYjg1NjhhOC03YzY4LTRlZGEtYjAyYy00ZjgyMDI4Y2U0ZDQiLCJpYXQiOjE3NjgwNDI3MzksInRrbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUp6ZFdJaU9pSlZibXR1YjNkdUlpd2lhblJwSWpvaVlqZG1NRFpqWmpndE1qVXdZaTFqTXpaakxUZGhNR1V0TlROaU1qazRNREpsWVRaaElpd2lhWE56SWpvaVpHOTBVa1ZhSUVGUVNTSjkuVXFtX0pyMXpqVGo3OFhxUGJRZmJwaHFLdTBCby00UEt0bVNkQTAyZFA5byIsImlzcyI6InNjb290LWNtdyIsImF1ZCI6InNjb290LWFwcCJ9.UtjtSIPtwK817b8RaqB0HgDeUmUvrZFl8wlE82u46lQ"
+        return "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhZjE4M2E0Ni04MjZjLTQ3M2EtODFlNi02OGU1MTQ4OWE3MTIiLCJpYXQiOjE3NjgwNDU5MTQsInRrbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUp6ZFdJaU9pSlZibXR1YjNkdUlpd2lhblJwSWpvaVltWXhZMlprWXpBdFptRTVOQzA0T0dNMExUZ3lPV010WlRObU16QXdNR0kxT0RRNUlpd2lhWE56SWpvaVpHOTBVa1ZhSUVGUVNTSjkud0I5LVNWWTJseE1iWGpEZ2Z6TVB1T3pqMVpxTUlSVVZuTDVsenkzYVpmcyIsImlzcyI6InNjb290LWNtdyIsImF1ZCI6InNjb290LWFwcCJ9.gYletV6LYxo7E0dbIqm_UEolrvek--BbXMftaBV7FkQ"
 
     def search_lowfare(
         self,

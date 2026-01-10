@@ -313,6 +313,14 @@
                         <input type="number" id="maxPricePerKm" placeholder="e.g. 1.5" step="0.1">
                     </div>
                 </div>
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label>Airport Code (within filtered routes)</label>
+                        <select id="airportCode">
+                            <option value="">All Airports</option>
+                        </select>
+                    </div>
+                </div>
             </div>
             
             <div class="results">
@@ -542,6 +550,14 @@
                     // Price filters
                     if (filters.maxPrice && route.totalPrice > parseFloat(filters.maxPrice)) return false;
                     if (filters.maxPricePerKm && route.pricePerKm > parseFloat(filters.maxPricePerKm)) return false;
+
+                    // Airport code filter
+                    if (filters.airportCode) {
+                        if (route.origin !== filters.airportCode && route.destination !== filters.airportCode) {
+                            return false;
+                        }
+                    }
+
                     return true;
                 });
             } catch (error) {
@@ -708,19 +724,51 @@
             });
         }
         
+        // Update airport code dropdown with available airports in filtered routes
+        function updateAirportDropdown(routes) {
+            const airportSelect = document.getElementById('airportCode');
+            const currentValue = airportSelect.value;
+
+            // Get unique airports from routes
+            const airports = new Set();
+            routes.forEach(route => {
+                airports.add(route.origin);
+                airports.add(route.destination);
+            });
+
+            // Sort airports alphabetically
+            const sortedAirports = Array.from(airports).sort();
+
+            // Rebuild dropdown options (keep "All Airports" as first option)
+            const options = ['<option value="">All Airports</option>'];
+            sortedAirports.forEach(code => {
+                const selected = code === currentValue ? 'selected' : '';
+                options.push(`<option value="${code}" ${selected}>${code}</option>`);
+            });
+
+            airportSelect.innerHTML = options.join('');
+        }
+
         // Load and display data
         async function loadData() {
             const filters = {
                 routeDirection: document.getElementById('routeDirection').value,
                 passengerType: document.getElementById('passengerType').value,
                 maxPrice: document.getElementById('maxPrice').value,
-                maxPricePerKm: document.getElementById('maxPricePerKm').value
+                maxPricePerKm: document.getElementById('maxPricePerKm').value,
+                airportCode: document.getElementById('airportCode').value
             };
 
             let routes = await fetchRoutes(filters);
             // Sort by total price (low to high)
             routes = routes.sort((a, b) => a.totalPrice - b.totalPrice);
             allRoutes = routes;
+
+            // Update airport dropdown based on filtered routes (only if not selecting airport)
+            if (!filters.airportCode) {
+                updateAirportDropdown(routes);
+            }
+
             renderRouteList(routes);
             drawRoutes(routes);
         }
@@ -730,6 +778,7 @@
         document.getElementById('passengerType').addEventListener('change', loadData);
         document.getElementById('maxPrice').addEventListener('input', debounce(loadData, 300));
         document.getElementById('maxPricePerKm').addEventListener('input', debounce(loadData, 300));
+        document.getElementById('airportCode').addEventListener('change', loadData);
 
         // Currency selector
         document.getElementById('currency').addEventListener('change', (e) => {

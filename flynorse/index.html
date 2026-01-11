@@ -255,6 +255,72 @@
             padding: 40px;
             color: #666;
         }
+
+        /* View toggle buttons */
+        .view-btn {
+            padding: 6px 12px;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 4px;
+            color: #888;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .view-btn:hover {
+            border-color: #4a9eff;
+            color: #4a9eff;
+        }
+
+        .view-btn.active {
+            background: #1a2a3a;
+            border-color: #4a9eff;
+            color: #4a9eff;
+        }
+
+        /* Booking analysis table */
+        .booking-table {
+            width: 100%;
+            font-size: 12px;
+            color: #fff;
+            margin-top: 12px;
+        }
+
+        .booking-table th,
+        .booking-table td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #2a2a2a;
+        }
+
+        .booking-table th {
+            background: #1a1a1a;
+            color: #888;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .booking-table tr:hover {
+            background: #1f1f1f;
+        }
+
+        .booking-insight {
+            padding: 12px;
+            background: #1a2a3a;
+            border-left: 3px solid #4a9eff;
+            margin-bottom: 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            line-height: 1.6;
+        }
+
+        .booking-insight strong {
+            color: #4aff91;
+        }
     </style>
 </head>
 <body>
@@ -263,6 +329,9 @@
             <div class="header">
                 <h1>✈️ Weird Flights</h1>
                 <p>Budget-first flight search</p>
+                <p id="dataAge" style="color: #888; font-size: 12px; margin-top: 8px;">
+                    📊 Data age: <span id="dataAgeText">Loading...</span>
+                </p>
             </div>
             
             <div class="filters">
@@ -324,11 +393,18 @@
             </div>
             
             <div class="results">
-                <div class="results-header">
+                <div class="results-header" style="display: flex; justify-content: space-between; align-items: center;">
                     <span id="resultsCount">0</span> routes found
+                    <div style="display: flex; gap: 8px;">
+                        <button id="viewRoutesBtn" class="view-btn active">Routes</button>
+                        <button id="viewBookingBtn" class="view-btn">Booking Analysis</button>
+                    </div>
                 </div>
-                <div id="routesList">
+                <div id="routesList" class="view-container">
                     <div class="loading">Loading routes...</div>
+                </div>
+                <div id="bookingAnalysis" class="view-container" style="display: none;">
+                    <div class="loading">Loading booking analysis...</div>
                 </div>
             </div>
         </aside>
@@ -724,6 +800,108 @@
             });
         }
         
+        // Calculate and display data age
+        function updateDataAge(routes) {
+            if (routes.length === 0) return;
+
+            // Find most recent scraped_at timestamp
+            const latestScrapedAt = routes.reduce((latest, route) => {
+                const routeDate = new Date(route.scraped_at);
+                return routeDate > latest ? routeDate : latest;
+            }, new Date(0));
+
+            // Calculate age in minutes/hours/days
+            const now = new Date();
+            const ageMs = now - latestScrapedAt;
+            const ageMinutes = Math.floor(ageMs / 60000);
+            const ageHours = Math.floor(ageMinutes / 60);
+            const ageDays = Math.floor(ageHours / 24);
+
+            let ageText;
+            if (ageMinutes < 2) {
+                ageText = 'Just now';
+            } else if (ageMinutes < 60) {
+                ageText = `${ageMinutes} min ago`;
+            } else if (ageHours < 24) {
+                ageText = `${ageHours}h ago`;
+            } else {
+                ageText = `${ageDays}d ago`;
+            }
+
+            document.getElementById('dataAgeText').textContent = ageText;
+        }
+
+        // Analyze booking patterns: price vs days to fly by airline
+        function generateBookingAnalysis(routes) {
+            const analysisData = {};
+
+            routes.forEach(route => {
+                const departure = new Date(route.departure_date);
+                const today = new Date();
+                today.setHours(0, 0, 0, 0);
+                departure.setHours(0, 0, 0, 0);
+
+                const daysToFly = Math.floor((departure - today) / (1000 * 60 * 60 * 24));
+
+                const airline = route.airline.toUpperCase();
+                const key = `${airline}|${daysToFly}`;
+
+                if (!analysisData[key]) {
+                    analysisData[key] = {
+                        airline: airline,
+                        daysToFly: daysToFly,
+                        prices: [],
+                        count: 0
+                    };
+                }
+
+                analysisData[key].prices.push(route.totalPrice);
+                analysisData[key].count++;
+            });
+
+            // Calculate averages and create table
+            const analysis = Object.values(analysisData)
+                .map(entry => ({
+                    airline: entry.airline,
+                    daysToFly: entry.daysToFly,
+                    avgPrice: entry.prices.reduce((a, b) => a + b, 0) / entry.prices.length,
+                    minPrice: Math.min(...entry.prices),
+                    maxPrice: Math.max(...entry.prices),
+                    count: entry.count
+                }))
+                .sort((a, b) => a.airline.localeCompare(b.airline) || a.daysToFly - b.daysToFly);
+
+            // Generate HTML table
+            let html = '<div class="booking-insight">' +
+                '<strong>💡 Insight:</strong> Shows average price per airline based on how far in advance flights depart. ' +
+                'Booking further in advance typically provides better prices, but patterns vary by airline and route.' +
+                '</div>';
+
+            html += '<table class="booking-table">' +
+                '<thead><tr>' +
+                '<th>Airline</th>' +
+                '<th>Days to Fly</th>' +
+                '<th>Avg Price</th>' +
+                '<th>Min - Max</th>' +
+                '<th>Flights</th>' +
+                '</tr></thead><tbody>';
+
+            analysis.forEach(row => {
+                const currencySymbol = CURRENCY_SYMBOLS[selectedCurrency] || '£';
+                html += `<tr>
+                    <td style="font-weight: 600;">${row.airline}</td>
+                    <td>${row.daysToFly} days</td>
+                    <td>${currencySymbol}${row.avgPrice.toFixed(2)}</td>
+                    <td>${currencySymbol}${row.minPrice.toFixed(2)} - ${currencySymbol}${row.maxPrice.toFixed(2)}</td>
+                    <td>${row.count}</td>
+                </tr>`;
+            });
+
+            html += '</tbody></table>';
+
+            return html;
+        }
+
         // Update airport code dropdown with available airports in filtered routes
         function updateAirportDropdown(routes) {
             const airportSelect = document.getElementById('airportCode');
@@ -764,10 +942,17 @@
             routes = routes.sort((a, b) => a.totalPrice - b.totalPrice);
             allRoutes = routes;
 
+            // Update data age display
+            updateDataAge(routes);
+
             // Update airport dropdown based on filtered routes (only if not selecting airport)
             if (!filters.airportCode) {
                 updateAirportDropdown(routes);
             }
+
+            // Generate booking analysis
+            const bookingHtml = generateBookingAnalysis(routes);
+            document.getElementById('bookingAnalysis').innerHTML = bookingHtml;
 
             renderRouteList(routes);
             drawRoutes(routes);
@@ -779,6 +964,21 @@
         document.getElementById('maxPrice').addEventListener('input', debounce(loadData, 300));
         document.getElementById('maxPricePerKm').addEventListener('input', debounce(loadData, 300));
         document.getElementById('airportCode').addEventListener('change', loadData);
+
+        // View toggle buttons
+        document.getElementById('viewRoutesBtn').addEventListener('click', (e) => {
+            document.getElementById('routesList').style.display = 'block';
+            document.getElementById('bookingAnalysis').style.display = 'none';
+            document.getElementById('viewRoutesBtn').classList.add('active');
+            document.getElementById('viewBookingBtn').classList.remove('active');
+        });
+
+        document.getElementById('viewBookingBtn').addEventListener('click', (e) => {
+            document.getElementById('routesList').style.display = 'none';
+            document.getElementById('bookingAnalysis').style.display = 'block';
+            document.getElementById('viewBookingBtn').classList.add('active');
+            document.getElementById('viewRoutesBtn').classList.remove('active');
+        });
 
         // Currency selector
         document.getElementById('currency').addEventListener('change', (e) => {

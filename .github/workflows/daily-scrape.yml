@@ -38,8 +38,13 @@ jobs:
           git config user.name "Scraper Bot"
           git config user.email "action@github.com"
 
-          # Add the updated files
-          git add flights.json flynorse/flights.json scoot_flights_*.json norse_flights_*.json
+          # Add the updated files with correct paths
+          # Scoot files are in root: scoot_flights_YYYY-MM-DD.json
+          # Norse files are in flynorse/: flynorse/norse_flights_YYYY-MM-DD.json
+          # Merged files are in root and flynorse/
+          git add flights.json flynorse/flights.json
+          git add scoot_flights_*.json || true
+          git add flynorse/norse_flights_*.json || true
 
           # Only commit if there are changes
           if git diff --cached --quiet; then
